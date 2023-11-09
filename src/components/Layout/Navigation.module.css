@@ -3,7 +3,10 @@
     display: flex;
     gap: 2em;
 }
-
-.navList li{
-
+.navList a{
+    padding: 15px;
+}
+.navList a:hover{
+    background-color: aqua;
+    border-radius: 10px;
 }

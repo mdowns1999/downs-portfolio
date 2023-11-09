@@ -8,7 +8,7 @@ const Header = () => {
           <Link to="/">
           <img
             src={require("../../assets/images/blank.png")}
-            alt="Poppin Soda Shop Logo"
+            alt="Downs Portfolio Logo"
           ></img>
         </Link>
         <div className={classes.navBox}>
