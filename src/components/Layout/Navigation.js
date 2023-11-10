@@ -4,6 +4,7 @@ import classes from "./Navigation.module.css";
 const Navigation = () => {
   return (
     <nav className={classes.navigation}>
+    <span className={classes.ham}></span>
       <ul className={classes.navList}>
         <li>
           <NavLink

@@ -1,3 +1,40 @@
+.navigation span{
+    display:block;
+    width: 35px;
+    height: 5px;
+    background: black;
+    position: relative;
+    transition: 0.5s;
+    margin: 5px;
+}
+
+.navigation span:before{
+    content: '';
+    position:absolute;
+    width: 35px;
+    height: 5px;
+    background-color: black;
+    top: -10px;
+    transition: 0.5s;
+}
+
+
+.navigation span:after{
+    content: '';
+    position:absolute;
+    width: 35px;
+    height: 5px;
+    background-color: black;
+    top: 10px;
+    transition: 0.5s;
+ 
+}
+
+.navigation span:hover, .navigation span:hover::before, .navigation span:hover::after {
+    background-color: rgb(131, 130, 130);
+  }
+
+
 .navList{
     list-style: none;
     display: flex;
