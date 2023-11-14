@@ -27,17 +27,6 @@ const Navigation = () => {
             Projects
           </NavLink>
         </li>
-
-        <li>
-          <NavLink
-            to="about"
-            className={({ isActive }) =>
-              isActive ? classes.active : undefined
-            }
-          >
-            About
-          </NavLink>
-        </li>
       </ul>
     </nav>
   );
