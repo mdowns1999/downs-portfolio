@@ -3,6 +3,7 @@ import SkillsList from "./SkillsList";
 const ProjectItem = (props) => {
   return (
     <li className={classes.item}>
+        <a href="#" className={classes.itemLink}>
       <img src={require("../../assets/images/blank.png")} alt="Product Item" />
       <div className={classes.overlay}>
         <div className={classes.content}>
@@ -11,6 +12,7 @@ const ProjectItem = (props) => {
           <SkillsList skills={props.skills} id={props.id} />
         </div>
       </div>
+      </a>
     </li>
   );
 };

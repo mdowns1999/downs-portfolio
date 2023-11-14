@@ -59,8 +59,10 @@ main {
   max-width: 1200px;
 }
 
-.ham{
-  color:red;
-  padding:20px;
-  content: "TEST";
+
+.banner{
+  text-align: center;
+  padding: 10px;
+  max-width: 250px;
+  margin: 2em auto;
 }

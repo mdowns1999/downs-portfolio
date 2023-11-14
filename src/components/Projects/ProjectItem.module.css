@@ -17,13 +17,9 @@
   right: 0;
   height: 40%;
   width: 100%;
-  opacity: 0;
+  opacity: 1;
   transition: 0.5s ease;
   background-color: #008cba;
-}
-
-.item:hover .overlay {
-  opacity: 1;
 }
 
 .content {
@@ -42,6 +38,16 @@
     position: relative;
     width: 350px;
     list-style: none;
+  }
+  .item .overlay {
+    position: absolute;
+    opacity: 0;
+    transition: 0.5s ease;
+    background-color: #008cba;
+  }
+  
+  .item:hover .overlay {
+    opacity: 1;
   }
 
   .content {

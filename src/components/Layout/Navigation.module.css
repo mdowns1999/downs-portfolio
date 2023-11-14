@@ -1,7 +1,11 @@
+/* https://alvarotrigo.com/blog/hamburger-menu-css-responsive/ */
+.navigation{
+    position: relative;
+}
 .navigation span{
     display:block;
     width: 35px;
-    height: 5px;
+    height: 6px;
     background: black;
     position: relative;
     transition: 0.5s;
@@ -12,7 +16,7 @@
     content: '';
     position:absolute;
     width: 35px;
-    height: 5px;
+    height: 6px;
     background-color: black;
     top: -10px;
     transition: 0.5s;
@@ -23,7 +27,7 @@
     content: '';
     position:absolute;
     width: 35px;
-    height: 5px;
+    height: 6px;
     background-color: black;
     top: 10px;
     transition: 0.5s;
@@ -34,16 +38,39 @@
     background-color: rgb(131, 130, 130);
   }
 
+.navList .item{
+    display:block;
+}
 
 .navList{
-    list-style: none;
-    display: flex;
-    gap: 2em;
-}
-.navList a{
-    padding: 15px;
-}
-.navList a:hover{
+    position: absolute;
     background-color: aqua;
-    border-radius: 10px;
 }
+
+
+@media screen and (min-width: 768px) {
+    .navigation span{
+        display:none;
+    }
+
+    .navList{
+        background-color: aqua;
+        position: static;
+        display:block;
+        list-style: none;
+        display: flex;
+        gap: 2em;
+    }
+
+    .navList li {
+        display:block;
+    }
+    .navList a{
+        padding: 15px;
+    }
+    .navList a:hover{
+        background-color: aqua;
+        border-radius: 10px;
+    }
+  }
+  

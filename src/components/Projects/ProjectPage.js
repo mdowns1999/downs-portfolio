@@ -26,6 +26,7 @@ const ProjectPage = () => {
 
   return (
     <div>
+      <h1 className="banner">Projects</h1>
       <ul className={classes.projectList}>
         {PROJECTS.map((project, index) => (
           <ProjectItem
