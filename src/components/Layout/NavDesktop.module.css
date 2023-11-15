@@ -1,5 +1,5 @@
 /* https://alvarotrigo.com/blog/hamburger-menu-css-responsive/ */
-.navigation{
+/* .navigation{
     position: relative;
 }
 .navigation span{
@@ -36,41 +36,24 @@
 
 .navigation span:hover, .navigation span:hover::before, .navigation span:hover::after {
     background-color: rgb(131, 130, 130);
-  }
-
-.navList .item{
-    display:block;
-}
-
-.navList{
-    position: absolute;
-    background-color: aqua;
+  } */
+  .navList{
+    display:none;
 }
 
 
-@media screen and (min-width: 768px) {
-    .navigation span{
+@media screen and (min-width: 550px) {
+    /* .navigation span{
         display:none;
-    }
+    } */
 
     .navList{
-        background-color: aqua;
-        position: static;
         display:block;
         list-style: none;
         display: flex;
         gap: 2em;
     }
 
-    .navList li {
-        display:block;
-    }
-    .navList a{
-        padding: 15px;
-    }
-    .navList a:hover{
-        background-color: aqua;
-        border-radius: 10px;
-    }
+
   }
   

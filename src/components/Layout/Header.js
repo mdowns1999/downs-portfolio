@@ -1,6 +1,8 @@
 import { Link } from "react-router-dom";
 import classes from "./Header.module.css";
-import Navigation from "./Navigation";
+import NavDesktop from "./NavDesktop";
+import { NavMobile } from "./NavMobile";
+
 
 const Header = () => {
   return (
@@ -12,7 +14,9 @@ const Header = () => {
           ></img>
         </Link>
         <div className={classes.navBox}>
-          <Navigation/>
+          <NavDesktop/>
+          <NavMobile/>
+         
         </div>
     </header>
   );

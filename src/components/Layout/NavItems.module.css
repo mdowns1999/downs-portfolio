@@ -1,0 +1,11 @@
+.active{
+   color: red;
+}
+
+.item a{
+    padding: 5px;
+}
+.item a:hover{
+    color: white;
+    border-radius: 10px;
+}
