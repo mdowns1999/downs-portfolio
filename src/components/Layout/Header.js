@@ -14,9 +14,8 @@ const Header = () => {
           ></img>
         </Link>
         <div className={classes.navBox}>
-          {/* <NavDesktop/> */}
+          <NavDesktop/>
           <NavMobile/>
-         
         </div>
     </header>
   );
