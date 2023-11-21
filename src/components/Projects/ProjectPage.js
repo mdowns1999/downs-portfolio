@@ -1,3 +1,4 @@
+import CheckBox from "../UI/CheckBox";
 import ProjectItem from "./ProjectItem";
 import classes from './ProjectPage.module.css'
 
@@ -27,6 +28,16 @@ const ProjectPage = () => {
   return (
     <div>
       <h1 className="banner">Projects</h1>
+      <div className={classes.projectFilterBar}>
+      <div className={classes.checkedBoxBtn}>
+            <CheckBox
+            id={1}
+            name={"CSS"}
+            index={1}
+            // handleOnChange ={handleOnChange}
+            />
+          </div>
+      </div>
       <ul className={classes.projectList}>
         {PROJECTS.map((project, index) => (
           <ProjectItem

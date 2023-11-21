@@ -1,7 +1,6 @@
 import { useEffect, useState } from "react";
 import classes from "./Skill.module.css";
 import ProgressBar from "@ramonak/react-progress-bar";
-import { inView } from "framer-motion";
 //https://www.npmjs.com/package/@ramonak/react-progress-bar
 const Skill = (props) => {
     const [progressNum, setProgressNum] = useState(0);
@@ -13,12 +12,12 @@ const Skill = (props) => {
           }
       },[props.inView,props.completed])
   return (
-    <>
+    <div className={classes.skill}>
      <p>{props.name}</p>
       <div className={classes.progressBar}>
-      <ProgressBar completed={progressNum}/>
+      <ProgressBar  bgColor="red" height="22" completed={progressNum}/>
       </div>
-    </>
+    </div>
 
    
   );

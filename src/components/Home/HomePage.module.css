@@ -1,3 +1,7 @@
+.home h1{
+    padding: 10px;
+    text-align: center;
+}
 .welcomeBox{
   display: flex;
   flex-direction: column;
@@ -8,14 +12,19 @@
 }
 
 .aboutBox, .skillsBox{
-    margin: 5em auto;
-    padding: 15px;
+    margin: 1em auto;
+    padding: 10px;
     max-width: 1200px;
 
         display:grid;
         gap: 1em;
         grid-template-columns: 1fr;
+       
  
+}
+
+.skillsContent{
+    grid-row:1/2;
 }
 
 .aboutBox img{
@@ -39,8 +48,15 @@
       }
 
       .aboutBox, .skillsBox{
-            grid-template-columns: 1fr 1fr;
+        gap: 5em;
+        grid-template-columns: 1fr 1fr;
+        margin-bottom: 4em;
+        
      
+    }
+
+    .skillsContent{
+        grid-column:2/3;
     }
 }
 

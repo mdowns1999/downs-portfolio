@@ -58,8 +58,7 @@ const HomePage = () => {
 
         <section className={classes.skillsBox}>
         <SkillChart/>
-
-        <div id="skillsSection">
+        <div className={classes.skillsContent}>
                     <h1>My Skills</h1>
                     <p className={classes.text}>Even though I am farily new to
                         programming, I strive to develop quality code and projects. I know a handful of languages. I am
@@ -73,7 +72,6 @@ const HomePage = () => {
 
                         <a href="files/downsResume.pdf" target="_blank">See Resume</a>
                 </div>
-
 
         </section>
       </div>

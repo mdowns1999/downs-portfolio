@@ -3,20 +3,27 @@ import Skill from "./Skill";
 import classes from "./SkillChart.module.css";
 //https://www.npmjs.com/package/@ramonak/react-progress-bar
 const SkillChart = () => {
-    const { ref, inView} = useInView();
-
+  const SKILLS = [
+    { name: "Javascript", completed: 70 },
+    { name: "HTML", completed: 70 },
+    { name: "CSS", completed: 70 },
+    { name: "C++", completed: 60 },
+    {name: "MYSQL", completed: 60},
+    { name: "Python", completed: 50 },
+    { name: "C#", completed: 40 },
+    {name: "PHP", completed: 40},
+    
+  ];
+  const { ref, inView } = useInView();
 
   return (
-    <div className={classes.skills}>
-    <Skill name="mySql" completed={60} inView={inView}/>
-    <Skill name="mySql" completed={40} inView={inView}/>
-    <Skill name="mySql" completed={80} inView={inView}/>
-    <div ref={ref}>
-<h2>{`Header inside viewport ${inView}.`}</h2>
-</div>
+    <div ref={ref} className={classes.skills}>
+      {SKILLS.map((skill, index)=> (
+        <Skill key={index} name={skill.name} completed={skill.completed} inView={inView} />
+      ))}
+      
+
     </div>
-
-
   );
 };
 
