@@ -1,15 +1,23 @@
 import CheckBox from "../UI/CheckBox";
 import ProjectItem from "./ProjectItem";
-import classes from './ProjectPage.module.css'
+import classes from "./ProjectPage.module.css";
 
 const ProjectPage = () => {
   console.log("PAGE");
+
+  let SKILLS = [
+    { id: "s1", name: "All" },
+    { id: "s2", name: "Web Projects" },
+    { id: "s3", name: "Design Projects" },
+    { id: "s4", name: "Other" },
+
+  ];
   let PROJECTS = [
     {
       id: 1,
       name: "Project 1",
       description: "A project with a lot of words of this project.",
-      skills: ["React", "JavaScript", "C ++","SCSS"],
+      skills: ["React", "JavaScript", "C ++", "SCSS"],
     },
     {
       id: 2,
@@ -28,16 +36,24 @@ const ProjectPage = () => {
   return (
     <div>
       <h1 className="banner">Projects</h1>
-      <div className={classes.projectFilterBar}>
-      <div className={classes.checkedBoxBtn}>
-            <CheckBox
-            id={1}
-            name={"CSS"}
-            index={1}
-            // handleOnChange ={handleOnChange}
-            />
-          </div>
-      </div>
+      <ul className={classes.projectFilterBar}>
+        <div>
+
+        </div>
+        {SKILLS.map((skill) => (
+          <li>
+            <div className={classes.checkedBoxBtn}>
+              <CheckBox
+                key={skill.id}
+                id={skill.id}
+                name={skill.name}
+                index={skill.id}
+                // handleOnChange ={handleOnChange}
+              />
+            </div>{" "}
+          </li>
+        ))}
+      </ul>
       <ul className={classes.projectList}>
         {PROJECTS.map((project, index) => (
           <ProjectItem
