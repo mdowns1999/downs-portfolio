@@ -51,7 +51,7 @@ const HomePage = () => {
           </div>
 
           <img
-            src={require("../../assets/images/blank.png")}
+            src={require("../../assets/images/profilePhoto.jpg")}
             alt="Mike Downs"
           ></img>
         </section>

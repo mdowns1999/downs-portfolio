@@ -43,6 +43,10 @@ p {
   letter-spacing: 2px;
 }
 
+img{
+  border-radius: 8px;
+}
+
 .container {
   display: flex;
   flex-direction: column;
