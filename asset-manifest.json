@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/downs-portfolio/static/css/main.945540b6.css",
+    "main.js": "/downs-portfolio/static/js/main.a7be6ae8.js",
+    "static/js/787.319caa1e.chunk.js": "/downs-portfolio/static/js/787.319caa1e.chunk.js",
+    "static/media/profilePhoto.jpg": "/downs-portfolio/static/media/profilePhoto.6ce310748172e9cf3637.jpg",
+    "index.html": "/downs-portfolio/index.html",
+    "main.945540b6.css.map": "/downs-portfolio/static/css/main.945540b6.css.map",
+    "main.a7be6ae8.js.map": "/downs-portfolio/static/js/main.a7be6ae8.js.map",
+    "787.319caa1e.chunk.js.map": "/downs-portfolio/static/js/787.319caa1e.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.945540b6.css",
+    "static/js/main.a7be6ae8.js"
+  ]
+}
