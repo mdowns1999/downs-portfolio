@@ -14,7 +14,7 @@ const router = createBrowserRouter([
       {path:"projects/:id", element: <ProjectDetailPage/>}
     ]
   }
-])
+], { basename: "/downs-portfolio" })
 
 function App() {
 
