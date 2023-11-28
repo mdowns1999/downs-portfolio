@@ -1,7 +1,10 @@
-const ProjectDetailPage = () => {
+import { useParams } from "react-router-dom";
 
+
+const ProjectDetailPage = () => {
+  const params = useParams();
     return (
-     <><p>PROJECT DETAIL</p></>
+     <><p>PROJECT ID: {params.id}</p></>
     );
   };
   

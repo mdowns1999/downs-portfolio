@@ -1,0 +1,23 @@
+[
+    {
+      "id": 1,
+      "name": "Project 1",
+      "description": "A project with a lot of words of this project.",
+      "skills": ["React", "JavaScript", "C ++", "SCSS"],
+      "type": "Web"
+    },
+{
+      "id": 2,
+      "name": "Project 2",
+      "description": "A project with a lot of words of this project.",
+      "skills": ["React", "JavaScript", "C ++", "SCSS"],
+      "type": "Design"
+    },
+{
+      "id": 3,
+      "name": "Project 3",
+      "description": "A project with a lot of words of this project.",
+      "skills": ["React", "JavaScript", "C ++", "SCSS"],
+      "type": "Other"
+    }
+  ]
