@@ -1,5 +1,6 @@
 .footer{
     text-align: center;
-    background-color: antiquewhite;
+    background-color: var(--primaryColor, 2E4057);
     padding: 2em;
+    color:white;
 }

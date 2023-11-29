@@ -1,6 +1,7 @@
 import Button from "../UI/Button";
 import classes from "./HomePage.module.css";
 import SkillChart from "./SkillChart";
+import resume from '../../assets/files/downsResume.pdf';
 
 const HomePage = () => {
   return (
@@ -56,24 +57,37 @@ const HomePage = () => {
           ></img>
         </section>
 
-        <section className={classes.skillsBox}>
-        <SkillChart/>
-        <div className={classes.skillsContent}>
-                    <h1>My Skills</h1>
-                    <p className={classes.text}>Even though I am farily new to
-                        programming, I strive to develop quality code and projects. I know a handful of languages. I am
-                        more familiar with some than others, but those languages include: Python, C++, HTML, CSS,
-                        Javascript, and MYSQL. The progress bars down below show my exact familiarity with each
-                        language.</p>
+        <div className={classes.skilsWrapper}>
+          <section className={classes.skillsBox}>
+            <SkillChart />
+            <div className={classes.skillsContent}>
+              <h1>My Skills</h1>
+              <p className={classes.text}>
+                Even though I am farily new to programming, I strive to develop
+                quality code and projects. I know a handful of languages. I am
+                more familiar with some than others, but those languages
+                include: Python, C++, HTML, CSS, Javascript, and MYSQL. The
+                progress bars down below show my exact familiarity with each
+                language.
+              </p>
 
-                        <p className={classes.text}>Outside of programming, I strive to be diligent in my work and work well with teams. I am good at
-                        time management and have developed a good work ethic from my previous jobs. To see some of the
-                        other jobs I have worked, feel free to look at my resume below.</p>
-
-                        <a href="files/downsResume.pdf" target="_blank">See Resume</a>
-                </div>
-
-        </section>
+              <p className={classes.text}>
+                Outside of programming, I strive to be diligent in my work and
+                work well with teams. I am good at time management and have
+                developed a good work ethic from my previous jobs. To see some
+                of the other jobs I have worked, feel free to look at my resume
+                below.
+              </p>
+              <div className={classes.btnBox}>
+              <Button>
+                <a href={resume} target="_blank" rel="noreferrer">
+                  See Resume
+                </a>
+              </Button>
+              </div>
+            </div>
+          </section>
+        </div>
       </div>
 
       {/* <div className={classes.aboutBox}><p className={classes.text}>

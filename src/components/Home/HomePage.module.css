@@ -1,8 +1,8 @@
-.home h1{
-    padding: 10px;
-    text-align: center;
+.home h1 {
+  padding: 10px;
+  text-align: center;
 }
-.welcomeBox{
+.welcomeBox {
   display: flex;
   flex-direction: column;
   gap: 1em;
@@ -11,70 +11,76 @@
   max-width: 900px;
 }
 
-.aboutBox, .skillsBox{
-    margin: 1em auto;
-    padding: 10px;
-    max-width: 1200px;
-
-        display:grid;
-        gap: 1em;
-        grid-template-columns: 1fr;
-       
- 
+.aboutBox,
+.skillsBox {
+  margin: 1em auto;
+  padding: 10px;
+  max-width: 1200px;
+  display: grid;
+  gap: 1em;
+  grid-template-columns: 1fr;
 }
 
-.skillsContent{
-    grid-row:1/2;
+.skillsBox {
+  background-color: #9cafb7;
+}
+.skillsContent {
+  grid-row: 1/2;
 }
 
-.aboutBox img{
-    justify-self: center;
-    align-self: center;
-    width: 70%;
+.skillsContent button{
+    width: 50%;
 }
 
-.homeWrapper {
-  background-color: #ff9b42;
+.aboutBox img {
+  justify-self: center;
+  align-self: center;
+  width: 70%;
+}
+
+.homeWrapper,
+.skilsWrapper {
+  background-color: #9cafb7;
   padding: 5px;
 }
-.welcomeBox .btnBox{
-    max-width: 200px;
+.welcomeBox .btnBox {
+  max-width: 200px;
 }
 
-
+.btnBox button{
+    margin: 0;
+}
 @media screen and (min-width: 768px) {
-    .welcomeBox{
-        gap:1em;
-       margin-top: 5em;
-       margin-bottom: 6em;
-      }
+  .welcomeBox {
+    gap: 1em;
+    margin-top: 5em;
+    margin-bottom: 6em;
+  }
 
-      .aboutBox, .skillsBox{
-        gap: 2em;
-        grid-template-columns: 1fr 1fr;
-        margin-bottom: 4em;
-        
-     
-    }
+  .aboutBox,
+  .skillsBox {
+    gap: 2em;
+    grid-template-columns: 1fr 1fr;
+    margin-bottom: 4em;
+  }
 
-    .skillsContent{
-        grid-column:2/3;
-    }
+  .skillsContent {
+    grid-column: 2/3;
+  }
 }
 
-.text{
-    margin-bottom: 1em;
+.text {
+  margin-bottom: 1em;
 }
 
 @media screen and (min-width: 1000px) {
-    .welcomeBox{
-       margin-top: 8em;
-       margin-bottom: 9em;
-      }
+  .welcomeBox {
+    margin-top: 8em;
+    margin-bottom: 9em;
+  }
 
-      .aboutBox, .skillsBox{
-        gap: 3em;
-    }
-
-
+  .aboutBox,
+  .skillsBox {
+    gap: 3em;
+  }
 }

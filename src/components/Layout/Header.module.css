@@ -3,7 +3,7 @@
     justify-content: space-between;
     align-items: center;
     justify-items: center;
-    background-color: antiquewhite;
+    background-color: var(--primaryColor, #2E4057);
     padding: 1em;
 }
 

@@ -1,10 +1,18 @@
+:root {
+  --primaryColor: #2E4057;
+  --secondaryColor: #9cafb7;
+  --accentOne: #2E8B57;
+  --accentTwo: #FFD500;
+  --accentThree: #4281A4;
+}
+
 * {
   box-sizing: border-box;
 }
 
 body {
   margin: 0;
-  background-color: #f4f4f4;
+  /* background-color: #f4f4f4; */
 }
 
 
@@ -58,6 +66,9 @@ main {
   
 }
 
+nav a{
+  color:white;
+}
 
 .banner{
   text-align: center;

@@ -15,7 +15,7 @@ const Skill = (props) => {
     <div className={classes.skill}>
      <p>{props.name}</p>
       <div className={classes.progressBar}>
-      <ProgressBar  bgColor="red" height="22" completed={progressNum}/>
+      <ProgressBar  labelColor="black" bgColor="#FFD500" height="22" completed={progressNum}/>
       </div>
     </div>
 

@@ -37,22 +37,24 @@
 .navigation span:hover, .navigation span:hover::before, .navigation span:hover::after {
     background-color: rgb(131, 130, 130);
   } */
+
   .navList{
     display:none;
 }
 
 
 @media screen and (min-width: 550px) {
-    /* .navigation span{
-        display:none;
-    } */
 
     .navList{
         display:block;
         list-style: none;
         display: flex;
         gap: 2em;
+        
     }
+
+ 
+    
 
 
   }
