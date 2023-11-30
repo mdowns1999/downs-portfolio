@@ -5,7 +5,7 @@ const Github = () => {
         <img
           className="githubLogo"
           src={require("../../assets/images/github-mark.png")}
-          alt="LinkedIn Logo"
+          alt="Github Logo"
         ></img>
       </a>
     </div>

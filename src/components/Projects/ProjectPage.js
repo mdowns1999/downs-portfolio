@@ -39,7 +39,6 @@ const ProjectPage = () => {
   //   },
   // ];
 
-  console.log(json);
   if (selectedValue !== "All") {
     filteredProjects = PROJECTS.filter((project) => {
       return project.type === selectedValue;

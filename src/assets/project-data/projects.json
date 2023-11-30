@@ -4,6 +4,7 @@
     "name": "Project 1",
     "description": "A project with a lot of words of this project. A project with a lot of words of this project. A project with a lot of words of this project. A project with a lot of words of this project. A project with a lot of words of this project.A project with a lot of words of this project. A project with a lot of words of this project. A project with a lot of words of this project.",
     "skills": ["React", "JavaScript", "C ++", "SCSS"],
+    "links": [{"name": "Github Repo", "link" : "www.github.com"}, {"name": "Live Demo", "link" : "https://www.canva.com/"}],
     "type": "Web"
   },
   {
@@ -11,6 +12,7 @@
     "name": "Project 2",
     "description": "A project with a lot of words of this project. A project with a lot of words of this project. A project with a lot of words of this project.  A project with a lot of words of this project. A project with a lot of words of this project.A project with a lot of words of this project. A project with a lot of words of this project. A project with a lot of words of this project.",
     "skills": ["React", "JavaScript", "C ++", "SCSS"],
+    "links": [{"name": "Github Repo", "link" : "www.github.com"}],
     "type": "Design"
   },
   {
@@ -18,6 +20,7 @@
     "name": "Project 3",
     "description": "A project with a lot of words of this project. A project with a lot of words of this project. A project with a lot of words of this project.  A project with a lot of words of this project. A project with a lot of words of this project. A project with a lot of words of this project. A project with a lot of words of this project. A project with a lot of words of this project.",
     "skills": ["React", "JavaScript", "C ++", "SCSS"],
+    "links": [{"name": "Github Repo", "link" : "www.github.com"}],
     "type": "Other"
   }
 ]

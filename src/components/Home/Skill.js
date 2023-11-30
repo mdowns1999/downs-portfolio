@@ -6,7 +6,6 @@ const Skill = (props) => {
   const [progressNum, setProgressNum] = useState(0);
 
   useEffect(() => {
-    console.log(props.inView);
     if (props.inView) {
       setProgressNum(props.completed);
     }
