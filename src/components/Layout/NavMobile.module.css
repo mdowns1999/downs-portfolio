@@ -1,27 +1,24 @@
-.mobileNavBox{
-    position: relative;
-
+.mobileNavBox {
+  position: relative;
 }
 
 .mobileNav ul {
-    display:flex;
-    flex-direction: column;
-    gap: 1em;
-    list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+  list-style: none;
 }
 
-
-.mobileNav{
-    position: absolute;
-    top: 80px;
-    right: 5px;
-    width: 90vw;
-    padding: 30px;
-    background-color: aqua;
+.mobileNav {
+  position: absolute;
+  top: 80px;
+  right: 5px;
+  width: 90vw;
+  padding: 30px;
+  background-color: aqua;
 }
 @media screen and (min-width: 550px) {
-    .mobileNavBox{
-        display:none;
-    }
+  .mobileNavBox {
+    display: none;
   }
-  
+}

@@ -1,26 +1,26 @@
-import RootLayout from './components/Layout/Root';
-import HomePage from './components/Home/HomePage';
-import ProjectPage from './components/Projects/ProjectPage';
-import ProjectDetailPage from './components/Projects/ProjectDetailPage';
-import { RouterProvider, createBrowserRouter } from 'react-router-dom';
+import RootLayout from "./components/Layout/Root";
+import HomePage from "./components/Home/HomePage";
+import ProjectPage from "./components/Projects/ProjectPage";
+import ProjectDetailPage from "./components/Projects/ProjectDetailPage";
+import { RouterProvider, createBrowserRouter } from "react-router-dom";
 
-const router = createBrowserRouter([
-  {
-    path:"/",
-    element: <RootLayout/>,
-    children: [
-      {index: true, element:<HomePage/>},
-      {path:"projects", element: <ProjectPage/>},
-      {path:"projects/:id", element: <ProjectDetailPage/>}
-    ]
-  }
-], { basename: "/downs-portfolio" })
+const router = createBrowserRouter(
+  [
+    {
+      path: "/",
+      element: <RootLayout />,
+      children: [
+        { index: true, element: <HomePage /> },
+        { path: "projects", element: <ProjectPage /> },
+        { path: "projects/:id", element: <ProjectDetailPage /> },
+      ],
+    },
+  ],
+  { basename: "/downs-portfolio" }
+);
 
 function App() {
-
-  return (
-    <RouterProvider router={router}/>
-  );
+  return <RouterProvider router={router} />;
 }
 
 export default App;

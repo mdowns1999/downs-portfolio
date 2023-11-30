@@ -1,14 +1,14 @@
 import Button from "../UI/Button";
 import classes from "./HomePage.module.css";
 import SkillChart from "./SkillChart";
-import resume from '../../assets/files/downsResume.pdf';
+import resume from "../../assets/files/downsResume.pdf";
 
 const HomePage = () => {
   return (
     <>
       <div className={classes.home}>
         <div className={classes.homeWrapper}>
-          <section className={classes.welcomeBox}>
+          <section className={classes.welcomeBox + " " + classes.fadeIn}>
             <h1>My name is Mike Downs</h1>
 
             <p className={classes.text}>
@@ -79,11 +79,11 @@ const HomePage = () => {
                 below.
               </p>
               <div className={classes.btnBox}>
-              <Button>
-                <a href={resume} target="_blank" rel="noreferrer">
-                  See Resume
-                </a>
-              </Button>
+                <Button>
+                  <a href={resume} target="_blank" rel="noreferrer">
+                    See Resume
+                  </a>
+                </Button>
               </div>
             </div>
           </section>

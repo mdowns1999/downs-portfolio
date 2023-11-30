@@ -1,16 +1,15 @@
-.item a{
-    padding: 10px;
+.item a {
+  padding: 10px;
 }
-.item a:hover{
-    color: white;
-    background-color: var(--accentThree, #4281A4);
-    border-radius: 10px;
-    padding:10px;
-    transition: 0.3s;
-    transition-timing-function: ease-in-out;
+.item a:hover {
+  color: white;
+  background-color: var(--accentThree, #4281a4);
+  border-radius: 10px;
+  padding: 10px;
+  transition: 0.3s;
+  transition-timing-function: ease-in-out;
 }
 
-.active{
-    color: var(--accentTwo, #FFD500);
- }
- 
+.active {
+  color: var(--accentTwo, #ffd500);
+}

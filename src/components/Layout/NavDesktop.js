@@ -1,11 +1,11 @@
-import classes from './NavDesktop.module.css'
-import NavItems from './NavItems';
+import classes from "./NavDesktop.module.css";
+import NavItems from "./NavItems";
 
-const NavDesktop= () => {
+const NavDesktop = () => {
   return (
     <nav className={classes.navigation}>
       <ul className={classes.navList}>
-        <NavItems/>
+        <NavItems />
       </ul>
     </nav>
   );

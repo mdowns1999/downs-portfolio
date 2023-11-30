@@ -1,18 +1,18 @@
-.skills{
-    max-width: 900px;
+.skills {
+  max-width: 900px;
 }
 
 .progressBar {
-    border-radius: 10px;
-    width: 100%;
-    background-color: grey;
-  }
-  
-  .bar {
-    border-radius: 10px;
-    width: 50%;
-    height: 30px;
-    background-color: green;
-  }
+  border-radius: 10px;
+  width: 100%;
+  background-color: grey;
+}
 
-  /* https://whoisryosuke.com/blog/2020/handling-scroll-based-animations-in-react/ */
+.bar {
+  border-radius: 10px;
+  width: 50%;
+  height: 30px;
+  background-color: green;
+}
+
+/* https://whoisryosuke.com/blog/2020/handling-scroll-based-animations-in-react/ */

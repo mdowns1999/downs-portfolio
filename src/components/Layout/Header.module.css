@@ -1,13 +1,12 @@
-.header{
-    display:flex;
-    justify-content: space-between;
-    align-items: center;
-    justify-items: center;
-    background-color: var(--primaryColor, #2E4057);
-    padding: 1em;
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  justify-items: center;
+  background-color: var(--primaryColor, #2e4057);
+  padding: 1em;
 }
 
-.header img{
-    width: 75px;
+.header img {
+  width: 75px;
 }
-

@@ -4,15 +4,14 @@ import Header from "./Header";
 import Github from "./Github";
 
 function RootLayout() {
- 
   return (
     <div className="container">
-      <Header/>
+      <Header />
       <main>
-        <Outlet/>
+        <Outlet />
       </main>
-      <Footer/>
-      <Github/>
+      <Footer />
+      <Github />
     </div>
   );
 }

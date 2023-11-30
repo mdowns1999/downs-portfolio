@@ -87,3 +87,8 @@ nav a{
   right: 0;
   background-color: white;
 }
+
+.githubLogo:hover{
+ transition: .25s;
+  background-color: var(--accentTwo, #FFD500);
+}

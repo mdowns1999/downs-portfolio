@@ -10,13 +10,19 @@ const Footer = () => {
         <a href="mailto:michaeljdowns99@gmail.com">michaeljdowns99@gmail.com</a>
       </div>
       <div className={classes.copyright}>&copy; Mike Downs {year}</div>
-      <div className={classes.social}><a href="https://www.linkedin.com/" rel="noreferrer" target="_blank">
+      <div className={classes.social}>
+        <a
+          href="https://www.linkedin.com/in/mike-downs/"
+          rel="noreferrer"
+          target="_blank"
+        >
           <img
             className={classes.linkedin}
             src={require("../../assets/images/In-White-40.png")}
             alt="LinkedIn Logo"
           ></img>
-        </a></div>
+        </a>
+      </div>
     </footer>
   );
 };

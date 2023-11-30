@@ -11,6 +11,22 @@
   max-width: 900px;
 }
 
+.fadeIn {
+  animation: fadeIn 2s;
+  -webkit-animation: fadeIn 2s;
+  -moz-animation: fadeIn 2s;
+  -o-animation: fadeIn 2s;
+  -ms-animation: fadeIn 2s;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
 .aboutBox,
 .skillsBox {
   margin: 1em auto;
@@ -28,8 +44,8 @@
   grid-row: 1/2;
 }
 
-.skillsContent button{
-    width: 50%;
+.skillsContent button {
+  width: 50%;
 }
 
 .aboutBox img {
@@ -47,8 +63,8 @@
   max-width: 200px;
 }
 
-.btnBox button{
-    margin: 0;
+.btnBox button {
+  margin: 0;
 }
 @media screen and (min-width: 768px) {
   .welcomeBox {
