@@ -1,0 +1,54 @@
+.project{
+    max-width: 1200px;
+    margin: 2em auto;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 2em;
+    padding: 10px;
+}
+
+.project img{
+    justify-self: center;
+    align-self: center;
+    width: 60%;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5em;
+}
+
+.linkBox{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 1em;
+}
+
+.linkBox button{
+    margin: 0;
+    width: 50%;
+}
+
+@media screen and (min-width: 800px) {
+    .linkBox{
+        flex-direction: row;
+    }
+
+    .linkBox button{
+        width: 30%;
+    }
+    
+    .project{
+        grid-template-columns: 1fr 1fr;
+
+    }
+
+    .project img{
+        justify-self: center;
+        width: 70%;
+    }
+  }
