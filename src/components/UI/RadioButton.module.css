@@ -29,7 +29,7 @@
 }
 
 .radio input[type="radio"]:checked + label {
-  background-color: var(--accentOne, #f9dc66);
+  background-color: #FFD500;
 }
 
 .radio label {
@@ -41,5 +41,5 @@
 
 .radio:hover {
   border-radius: 10px;
-  background-color: var(--accentTwo, #ff9b42);
+  background-color: #fe938c;
 }

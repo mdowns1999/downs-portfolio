@@ -1,7 +1,7 @@
 import { useClickAway } from "react-use";
 import { useEffect, useRef } from "react";
 import { useState } from "react";
-import { Squash as Hamburger } from "hamburger-react";
+import { Squeeze as Hamburger } from "hamburger-react";
 import classes from "./NavMobile.module.css";
 import NavItems from "./NavItems";
 
@@ -25,7 +25,7 @@ export const NavMobile = () => {
 
   return (
     <div ref={ref} className={classes.mobileNavBox}>
-      <Hamburger toggled={isOpen} size={30} toggle={setOpen} />
+      <Hamburger toggled={isOpen} size={30} toggle={setOpen} color="white"/>
       {isOpen && (
         <nav
           initial={{ opacity: 0 }}

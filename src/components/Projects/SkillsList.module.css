@@ -9,7 +9,7 @@
 .skill{
     list-style: none;
     font-size: 11px;
-    background-color: lightgrey;
+    background-color: var(--secondaryColor, #9cafb7);
     padding: 8px;
     border-radius: 50px;
     font-weight: bold;

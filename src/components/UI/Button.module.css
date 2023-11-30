@@ -9,6 +9,7 @@
   font-size: 18px;
   transition: 0.25s;
   display: block;
+  color:black;
 }
 
 .button:hover {
