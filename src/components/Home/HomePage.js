@@ -2,6 +2,7 @@ import Button from "../UI/Button";
 import classes from "./HomePage.module.css";
 import SkillChart from "./SkillChart";
 import resume from "../../assets/files/downsResume.pdf";
+import { Link } from "react-router-dom";
 
 const HomePage = () => {
   return (
@@ -26,7 +27,9 @@ const HomePage = () => {
             </p>
 
             <div className={classes.btnBox}>
-              <Button>See Projects</Button>
+              <Button>
+                <Link to="/projects">See Projects</Link>
+              </Button>
             </div>
           </section>
         </div>

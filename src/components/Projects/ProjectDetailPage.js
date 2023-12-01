@@ -11,11 +11,17 @@ const ProjectDetailPage = () => {
 
   let btns = project.links.map((link, index) => (
     <Button key={index}>
-      <a href={link.link} rel="noreferrer" target="_blank">{link.name}</a>
+      <a href={link.link} rel="noreferrer" target="_blank">
+        {link.name}
+      </a>
     </Button>
   ));
 
   let image = getImage(project.name);
+
+  //Make Sure we are at the top of the page!
+  window.scrollTo(0, 0);
+
   return (
     <div className={classes.project}>
       <img src={image} alt="Product Item" />

@@ -66,6 +66,10 @@
 .btnBox button {
   margin: 0;
 }
+
+.btnBox a{
+  color:black;
+}
 @media screen and (min-width: 768px) {
   .welcomeBox {
     gap: 1em;

@@ -4,7 +4,16 @@
     "name": "Poppin Soda",
     "description": "This Project was my senior project",
     "skills": ["React", "JavaScript", "HTML", "CSS"],
-    "links": [{"name": "Github Repo", "link" : "https://github.com/mdowns1999/poppin-soda"}, {"name": "Live Demo", "link" : "https://mdowns1999.github.io/poppin-soda/"}],
+    "links": [
+      {
+        "name": "Github Repo",
+        "link": "https://github.com/mdowns1999/poppin-soda"
+      },
+      {
+        "name": "Live Demo",
+        "link": "https://mdowns1999.github.io/poppin-soda/"
+      }
+    ],
     "type": "Web"
   },
   {
@@ -12,7 +21,16 @@
     "name": "Style Stage",
     "description": "This project was a team project. The purpose of this project was to receive a web page and style it without touching the HTML. This would force each of us to exercise our skills of using various CSS selectors and use our creativity to get the web page to look how we wanted it. We were also not allowed to use any JavaScript according to the rules the creator of web page made. I specifically made the header, footer and nav bar of the page. I also made the bottom part of the page with the three cards and the various buttons around it. Other parts of the page were made by my teammates.",
     "skills": ["JavaScript", "HTML", "CSS", "SCSS"],
-    "links": [{"name": "Github Repo", "link" : "https://github.com/mdowns1999/stylestage-sass-main"}, {"name": "Live Demo", "link" : "https://github.com/mdowns1999/stylestage-sass-main"}],
+    "links": [
+      {
+        "name": "Github Repo",
+        "link": "https://github.com/mdowns1999/stylestage-sass-main"
+      },
+      {
+        "name": "Live Demo",
+        "link": "https://mdowns1999.github.io/stylestage-sass-main/"
+      }
+    ],
     "type": "Web"
   },
   {
@@ -20,7 +38,16 @@
     "name": "BYUI Rebuild",
     "description": "This project was a rebuild of the BYUI Home Page as of April 2023.  The goal of this project was to look at the BYUI Home page and build a similar page that looks as close to the original one as possible.  The only exceptions to this is the header and the footer of the page. This project mainly focused on the CSS styles instead of functionality with JavaScript. I had access to some of BYUI’s fonts, colors, content, and icons to help get the look and feel right.  ",
     "skills": ["HTML", "CSS", "SCSS"],
-    "links": [{"name": "Github Repo", "link" : "https://github.com/mdowns1999/BYUIWebsiteRebuildCode"}, {"name": "Live Demo", "link" : "https://github.com/mdowns1999/stylestage-sass-main"}],
+    "links": [
+      {
+        "name": "Github Repo",
+        "link": "https://github.com/mdowns1999/BYUIWebsiteRebuildCode"
+      },
+      {
+        "name": "Live Demo",
+        "link": "https://mdowns1999.github.io/BYUIWebsiteRebuildCode/"
+      }
+    ],
     "type": "Web"
   },
   {
@@ -28,7 +55,16 @@
     "name": "Weather App",
     "description": "This project is a simple Five Day Weather forecast of three different cities.  The purpose of this site was to practice applying various topics in JavaScript that I learned from some Web Development classes.  The topics include: Fetching and using a JSON file from an API, storing and using information from local storage, and using JavaScript Objects in general.",
     "skills": ["Javascript", "HTML", "CSS", "SCSS"],
-    "links": [{"name": "Github Repo", "link" : "https://github.com/mdowns1999/weatherAPI"}, {"name": "Live Demo", "link" : "https://github.com/mdowns1999/stylestage-sass-main"}],
+    "links": [
+      {
+        "name": "Github Repo",
+        "link": "https://github.com/mdowns1999/weatherAPI"
+      },
+      {
+        "name": "Live Demo",
+        "link": "https://mdowns1999.github.io/weatherAPI/"
+      }
+    ],
     "type": "Web"
   },
   {
@@ -36,7 +72,12 @@
     "name": "Chess",
     "description": "This chess project was one that I did in a team.  The goal was to make a fully functional chess program.  This program needed to follow all the rules of chess, meaning, every piece moves exactly as it should.  We also implemented special moves like castling, empassant, and promotion (though in this version you always promote to a queen).  Most of the code we wrote was our own.  The code that was not ours was the interact and Open GL Classes and libraries.  Those were written by James Helfrich, a professor at BYU-I.",
     "skills": ["C++"],
-    "links": [{"name": "Github Repo", "link" : "https://github.com/mdowns1999/Chess-Program-Repo"}],
+    "links": [
+      {
+        "name": "Github Repo",
+        "link": "https://github.com/mdowns1999/Chess-Program-Repo"
+      }
+    ],
     "type": "Design"
   },
   {
@@ -44,7 +85,38 @@
     "name": "Orbit Simulator",
     "description": "This project is a simulation of satellites orbiting the earth.  This program allows you to fly a ship and destroy floating junk in space.  If a satellite breaks during the game, then it is the players job to go and destroy it before anything else breaks.  This program uses basic physics.  The orbiting of the satellites is not as precise as it could be since we are using simple Algebra and Geometry, but it is close enough that it looks almost like the real thing.",
     "skills": ["C++"],
-    "links": [{"name": "Github Repo", "link" : "https://github.com/mdowns1999/Orbit-Simulator"}],
+    "links": [
+      {
+        "name": "Github Repo",
+        "link": "https://github.com/mdowns1999/Orbit-Simulator"
+      }
+    ],
     "type": "Design"
+  },
+  {
+    "id": 7,
+    "name": "PHP Motors",
+    "description": "This project is a project is a simple website that does a few different things.  The website allows the user to view several different cars that you could ‘buy’.  The website also allows you to log in, view your account information, and logout.  A search feature has also been implemented where you can search all the vehicles on the website.  where I used PHP on the backend to help deliver content to the client’s view. The type of database that I used was a relational database.",
+    "skills": ["PHP", "HTML", "CSS", "Javascript"],
+    "links": [
+      {
+        "name": "Github Repo",
+        "link": "https://github.com/mdowns1999/phpmotors"
+      }
+    ],
+    "type": "Web"
+  },
+  {
+    "id": 8,
+    "name": "C# ATM",
+    "description": "Before this project, I knew little about C#.  So I decided to do a simple two week sprint and begin learning the C# language.  I chose to do a simple ATM project so I can work on practicing how to use classes, control flow, loops, and the list container.  To display everything, I chose to do it in the console so I could mainly focus on learning C#.  Since my two week sprint, I have taken two C# courses on Udemy to learn the fundementals C# better.  Those fundementals include variables, functions, classes, etc.",
+    "skills": ["C#"],
+    "links": [
+      {
+        "name": "Github Repo",
+        "link": "https://github.com/mdowns1999/cSharpATM"
+      }
+    ],
+    "type": "Other"
   }
 ]

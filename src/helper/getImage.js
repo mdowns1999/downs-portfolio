@@ -12,7 +12,7 @@ const getImage = (imageName) => {
       return require("../assets/images/chessPic.png");
     case "Orbit Simulator":
       return require("../assets/images/orbitPic.png");
-    case "Php Motors":
+    case "PHP Motors":
       return require("../assets/images/phpMotorsHome.png");
     case "C# ATM":
       return require("../assets/images/cSharpATM.png");
