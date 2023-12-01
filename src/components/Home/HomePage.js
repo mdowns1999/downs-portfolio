@@ -15,15 +15,11 @@ const HomePage = () => {
             <p className={classes.text}>
               I am a Software Engineer that strives to build quality projects. I
               am a student learning the best practices in the world of web
-              development. I study and implement good design practices to strive
-              to make my code clean, reusable, and efficient.
-            </p>
-
-            <p className={classes.text}>
-              Interested in what I know or can do? Click the button below to
-              learn more about the projects I have built and what languages I
-              have used to build them! I have used many languages in my
-              projects.
+              development as well as how to implement good design practices to
+              strive to make my code clean, reusable, and efficient. If you want
+              to see what I have done, check out the projects page to see what I
+              have built! If you want to get ahold of me, you will find my email
+              at the bottom of the page or on my resume.
             </p>
 
             <div className={classes.btnBox}>
@@ -66,12 +62,13 @@ const HomePage = () => {
             <div className={classes.skillsContent}>
               <h1>My Skills</h1>
               <p className={classes.text}>
-                Even though I am farily new to programming, I strive to develop
-                quality code and projects. I know a handful of languages. I am
-                more familiar with some than others, but those languages
-                include: Python, C++, HTML, CSS, Javascript, and MYSQL. The
-                progress bars down below show my exact familiarity with each
-                language.
+                I have worked on a number of projects. I know a handful of
+                languages. I am more familiar with some than others, but those
+                languages include: Python, C++, HTML, CSS, Javascript, and
+                MYSQL. I have also used Javascript frameworks like React and
+                Angular. I have also done a little backend work with Node,
+                Epxress, and MongoDB. The progress bars down below show my exact
+                familiarity with each language.
               </p>
 
               <p className={classes.text}>
@@ -92,19 +89,6 @@ const HomePage = () => {
           </section>
         </div>
       </div>
-
-      {/* <div className={classes.aboutBox}><p className={classes.text}>
-          I am a Software Engineer that strives to build quality projects. I am
-          a student learning the best practices in the world of web development.
-          I study and implement good design practices to strive to make my code
-          clean, reusable, and efficient.
-        </p>
-
-        <p className={classes.text}>
-          Interested in what I know or can do? Click the button below to learn
-          more about the projects I have built and what languages I have used to
-          build them! I have used many languages in my projects.
-        </p></div> */}
     </>
   );
 };

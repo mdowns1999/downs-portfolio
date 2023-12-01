@@ -10,6 +10,7 @@ const SkillChart = () => {
     { name: "React", completed: 60 },
     { name: "C++", completed: 60 },
     { name: "MYSQL", completed: 60 },
+    { name: "Node/Express", completed: 50 },
     { name: "Python", completed: 50 },
     { name: "C#", completed: 40 },
   ];
