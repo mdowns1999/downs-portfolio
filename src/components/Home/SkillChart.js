@@ -7,11 +7,11 @@ const SkillChart = () => {
     { name: "Javascript", completed: 70 },
     { name: "HTML", completed: 70 },
     { name: "CSS", completed: 70 },
+    { name: "React", completed: 60 },
     { name: "C++", completed: 60 },
     { name: "MYSQL", completed: 60 },
     { name: "Python", completed: 50 },
     { name: "C#", completed: 40 },
-    { name: "PHP", completed: 40 },
   ];
   const { ref, inView } = useInView({
     /* Optional options */
