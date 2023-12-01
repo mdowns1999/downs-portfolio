@@ -12,6 +12,7 @@ function RootLayout() {
       </main>
       <Footer />
       <Github />
+      
     </div>
   );
 }

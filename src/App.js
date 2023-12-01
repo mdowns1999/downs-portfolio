@@ -3,12 +3,14 @@ import HomePage from "./components/Home/HomePage";
 import ProjectPage from "./components/Projects/ProjectPage";
 import ProjectDetailPage from "./components/Projects/ProjectDetailPage";
 import { RouterProvider, createBrowserRouter } from "react-router-dom";
+import ErrorPage from "./components/UserFeedback/ErrorPage";
 
 const router = createBrowserRouter(
   [
     {
       path: "/",
       element: <RootLayout />,
+      errorElement: <ErrorPage />,
       children: [
         { index: true, element: <HomePage /> },
         { path: "projects", element: <ProjectPage /> },
