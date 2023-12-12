@@ -2,7 +2,7 @@
   {
     "id": 1,
     "name": "Poppin Soda",
-    "description": "This Project was my senior project",
+    "description": "This website was a project I created for my senior project.  The goal of this project was to learn something I have never done up to that point in my schooling.  I wanted to earn React, so I found a course online and started learning React a month before even beginning my project.  The site is a mock of a soda business website.  It has a functional cart, checkout, and review section.  Feel free to play around with it!",
     "skills": ["React", "JavaScript", "HTML", "CSS"],
     "links": [
       {
