@@ -10,11 +10,11 @@ const ProjectDetailPage = () => {
   let project = data.find((project) => project.id === +params.id);
 
   let btns = project.links.map((link, index) => (
+    <a href={link.link} rel="noreferrer" target="_blank">
     <Button key={index}>
-      <a href={link.link} rel="noreferrer" target="_blank">
         {link.name}
-      </a>
     </Button>
+    </a>
   ));
 
   let image = getImage(project.name);

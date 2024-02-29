@@ -2,6 +2,9 @@
   max-width: 900px;
 }
 
+.skillsNote{
+  font-size: 15px;
+}
 .progressBar {
   border-radius: 10px;
   width: 100%;

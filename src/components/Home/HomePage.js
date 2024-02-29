@@ -23,9 +23,11 @@ const HomePage = () => {
             </p>
 
             <div className={classes.btnBox}>
+            <Link to="/projects">
               <Button>
-                <Link to="/projects">See Projects</Link>
+               See Projects
               </Button>
+              </Link>
             </div>
           </section>
         </div>
@@ -79,11 +81,9 @@ const HomePage = () => {
                 below.
               </p>
               <div className={classes.btnBox}>
-                <Button>
-                  <a href={resume} target="_blank" rel="noreferrer">
-                    See Resume
-                  </a>
-                </Button>
+                <a href={resume} target="_blank" rel="noreferrer">
+                  <Button>See Resume</Button>
+                </a>
               </div>
             </div>
           </section>

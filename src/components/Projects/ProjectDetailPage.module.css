@@ -30,7 +30,6 @@
 
 .linkBox button {
   margin: 0;
-  width: 50%;
 }
 
 @media screen and (min-width: 800px) {
@@ -38,9 +37,6 @@
     flex-direction: row;
   }
 
-  .linkBox button {
-    width: 30%;
-  }
 
   .project {
     grid-template-columns: 1fr 1fr;
