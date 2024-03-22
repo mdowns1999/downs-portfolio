@@ -23,10 +23,8 @@ const HomePage = () => {
             </p>
 
             <div className={classes.btnBox}>
-            <Link to="/projects">
-              <Button>
-               See Projects
-              </Button>
+              <Link to="/projects">
+                <Button>See Projects</Button>
               </Link>
             </div>
           </section>
@@ -41,13 +39,14 @@ const HomePage = () => {
               High School in 2017. I then served a two year mission for the
               Church of Jesus Christ of Latter Day Saints. After returning from
               my mission I started attending school at Brigham Young University
-              - Idaho (BYU-I). I graduated April 2024. I enjoy the outdoors, reading, and being with my
-              family.
+              - Idaho (BYU-I). I graduated April 2024. I enjoy the outdoors,
+              reading, and being with my family.
             </p>
 
             <p className={classes.text}>
-              My major is Software Engineering. In my major, I have earned certificates in Software Desgin, Web Development, and
-              Computer Programming.
+              My major is Software Engineering. In my major, I have earned
+              certificates in Software Desgin, Web Development, and Computer
+              Programming.
             </p>
           </div>
 
