@@ -41,14 +41,13 @@ const HomePage = () => {
               High School in 2017. I then served a two year mission for the
               Church of Jesus Christ of Latter Day Saints. After returning from
               my mission I started attending school at Brigham Young University
-              - Idaho (BYU-I).I enjoy the outdoors, reading, and being with my
+              - Idaho (BYU-I). I graduated April 2024. I enjoy the outdoors, reading, and being with my
               family.
             </p>
 
             <p className={classes.text}>
-              My current major is Software Engineering. In my major, I am also
-              working on certificates in Software Desgin, Web Development, and
-              general computer programming.
+              My major is Software Engineering. In my major, I have earned certificates in Software Desgin, Web Development, and
+              Computer Programming.
             </p>
           </div>
 
