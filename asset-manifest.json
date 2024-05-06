@@ -1,24 +1,26 @@
 {
   "files": {
     "main.css": "/downs-portfolio/static/css/main.d4bbb4a6.css",
-    "main.js": "/downs-portfolio/static/js/main.e0abbfa3.js",
-    "static/js/787.0cdc87a3.chunk.js": "/downs-portfolio/static/js/787.0cdc87a3.chunk.js",
-    "static/media/styleStage.png": "/downs-portfolio/static/media/styleStage.e9a85431fc08f86ccd99.png",
-    "static/media/BYUIHomePage.png": "/downs-portfolio/static/media/BYUIHomePage.cc6bc89171ef185a209b.png",
-    "static/media/poppinSoda.png": "/downs-portfolio/static/media/poppinSoda.4a911be808cf9c122e29.png",
-    "static/media/phpMotorsHome.png": "/downs-portfolio/static/media/phpMotorsHome.28378af69fbb9d60be9a.png",
-    "static/media/profilePhoto.jpg": "/downs-portfolio/static/media/profilePhoto.6ce310748172e9cf3637.jpg",
+    "main.js": "/downs-portfolio/static/js/main.447fa7d8.js",
+    "static/js/787.319caa1e.chunk.js": "/downs-portfolio/static/js/787.319caa1e.chunk.js",
     "static/media/downsResume.pdf": "/downs-portfolio/static/media/downsResume.bb4085fc59221e0bb6e2.pdf",
-    "static/media/weatherForecast.png": "/downs-portfolio/static/media/weatherForecast.f445b5056f91a11bba61.png",
-    "static/media/cSharpATM.png": "/downs-portfolio/static/media/cSharpATM.34b98c1cbeef2fd641b0.png",
+    "static/media/profilePhoto.jpg": "/downs-portfolio/static/media/profilePhoto.19c1c3a5cf5010b4818e.jpg",
+    "static/media/styleStage.jpg": "/downs-portfolio/static/media/styleStage.9a127ee1a25def66c811.jpg",
+    "static/media/poppinSoda.jpg": "/downs-portfolio/static/media/poppinSoda.453b9a46b95da77d6f73.jpg",
+    "static/media/BYUIHomePage.jpg": "/downs-portfolio/static/media/BYUIHomePage.28435eee9d8efeaeae28.jpg",
+    "static/media/phpMotorsHome.jpg": "/downs-portfolio/static/media/phpMotorsHome.d9b98150786f917401a9.jpg",
+    "static/media/weatherForecast.jpg": "/downs-portfolio/static/media/weatherForecast.7922deecd4e3c88d880a.jpg",
+    "static/media/cSharpAtm.jpg": "/downs-portfolio/static/media/cSharpAtm.f417032abbf615db1e78.jpg",
+    "static/media/chessPic.jpg": "/downs-portfolio/static/media/chessPic.b34a9d6153f65e77e781.jpg",
+    "static/media/orbitPic.jpg": "/downs-portfolio/static/media/orbitPic.340f7a6374d0d1068a02.jpg",
     "static/media/portfolioLogo.png": "/downs-portfolio/static/media/portfolioLogo.7f7cb3316d42fd40eda1.png",
     "index.html": "/downs-portfolio/index.html",
     "main.d4bbb4a6.css.map": "/downs-portfolio/static/css/main.d4bbb4a6.css.map",
-    "main.e0abbfa3.js.map": "/downs-portfolio/static/js/main.e0abbfa3.js.map",
-    "787.0cdc87a3.chunk.js.map": "/downs-portfolio/static/js/787.0cdc87a3.chunk.js.map"
+    "main.447fa7d8.js.map": "/downs-portfolio/static/js/main.447fa7d8.js.map",
+    "787.319caa1e.chunk.js.map": "/downs-portfolio/static/js/787.319caa1e.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.d4bbb4a6.css",
-    "static/js/main.e0abbfa3.js"
+    "static/js/main.447fa7d8.js"
   ]
 }
