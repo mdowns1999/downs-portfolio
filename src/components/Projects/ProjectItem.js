@@ -10,7 +10,7 @@ const ProjectItem = (props) => {
       <Link to={`/projects/${props.id}`} className={classes.itemLink}>
         <img
           src={image}
-          alt="Product Item"
+          alt={`${props.name} Project Link`}
         />
         <div className={classes.overlay}>
           <div className={classes.content}>
