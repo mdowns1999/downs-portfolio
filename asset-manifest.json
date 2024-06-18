@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/downs-portfolio/static/css/main.d4bbb4a6.css",
-    "main.js": "/downs-portfolio/static/js/main.447fa7d8.js",
+    "main.css": "/downs-portfolio/static/css/main.2c8f74d3.css",
+    "main.js": "/downs-portfolio/static/js/main.18794d4a.js",
     "static/js/787.319caa1e.chunk.js": "/downs-portfolio/static/js/787.319caa1e.chunk.js",
     "static/media/downsResume.pdf": "/downs-portfolio/static/media/downsResume.bb4085fc59221e0bb6e2.pdf",
     "static/media/profilePhoto.jpg": "/downs-portfolio/static/media/profilePhoto.19c1c3a5cf5010b4818e.jpg",
@@ -15,12 +15,12 @@
     "static/media/orbitPic.jpg": "/downs-portfolio/static/media/orbitPic.340f7a6374d0d1068a02.jpg",
     "static/media/portfolioLogo.png": "/downs-portfolio/static/media/portfolioLogo.7f7cb3316d42fd40eda1.png",
     "index.html": "/downs-portfolio/index.html",
-    "main.d4bbb4a6.css.map": "/downs-portfolio/static/css/main.d4bbb4a6.css.map",
-    "main.447fa7d8.js.map": "/downs-portfolio/static/js/main.447fa7d8.js.map",
+    "main.2c8f74d3.css.map": "/downs-portfolio/static/css/main.2c8f74d3.css.map",
+    "main.18794d4a.js.map": "/downs-portfolio/static/js/main.18794d4a.js.map",
     "787.319caa1e.chunk.js.map": "/downs-portfolio/static/js/787.319caa1e.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d4bbb4a6.css",
-    "static/js/main.447fa7d8.js"
+    "static/css/main.2c8f74d3.css",
+    "static/js/main.18794d4a.js"
   ]
 }
