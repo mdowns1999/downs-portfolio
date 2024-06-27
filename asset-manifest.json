@@ -1,9 +1,9 @@
 {
   "files": {
     "main.css": "/downs-portfolio/static/css/main.2c8f74d3.css",
-    "main.js": "/downs-portfolio/static/js/main.18794d4a.js",
-    "static/js/787.319caa1e.chunk.js": "/downs-portfolio/static/js/787.319caa1e.chunk.js",
-    "static/media/downsResume.pdf": "/downs-portfolio/static/media/downsResume.bb4085fc59221e0bb6e2.pdf",
+    "main.js": "/downs-portfolio/static/js/main.936db658.js",
+    "static/js/453.29ff7ad5.chunk.js": "/downs-portfolio/static/js/453.29ff7ad5.chunk.js",
+    "static/media/downsResume.pdf": "/downs-portfolio/static/media/downsResume.49c57da349a6707c7bb9.pdf",
     "static/media/profilePhoto.jpg": "/downs-portfolio/static/media/profilePhoto.19c1c3a5cf5010b4818e.jpg",
     "static/media/styleStage.jpg": "/downs-portfolio/static/media/styleStage.9a127ee1a25def66c811.jpg",
     "static/media/poppinSoda.jpg": "/downs-portfolio/static/media/poppinSoda.453b9a46b95da77d6f73.jpg",
@@ -16,11 +16,11 @@
     "static/media/portfolioLogo.png": "/downs-portfolio/static/media/portfolioLogo.7f7cb3316d42fd40eda1.png",
     "index.html": "/downs-portfolio/index.html",
     "main.2c8f74d3.css.map": "/downs-portfolio/static/css/main.2c8f74d3.css.map",
-    "main.18794d4a.js.map": "/downs-portfolio/static/js/main.18794d4a.js.map",
-    "787.319caa1e.chunk.js.map": "/downs-portfolio/static/js/787.319caa1e.chunk.js.map"
+    "main.936db658.js.map": "/downs-portfolio/static/js/main.936db658.js.map",
+    "453.29ff7ad5.chunk.js.map": "/downs-portfolio/static/js/453.29ff7ad5.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.2c8f74d3.css",
-    "static/js/main.18794d4a.js"
+    "static/js/main.936db658.js"
   ]
 }
