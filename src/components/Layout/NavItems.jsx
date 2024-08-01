@@ -1,8 +1,10 @@
+import PropTypes from "prop-types"; // Import PropTypes
 import { NavLink } from "react-router-dom";
 import classes from "./NavItems.module.css";
 import { motion } from "framer-motion";
 
-const NavItems = (props) => {
+// Define the NavItems component
+const NavItems = ({ onClick }) => {
   return (
     <>
       <motion.li
@@ -15,7 +17,7 @@ const NavItems = (props) => {
           delay: 0.1 + 0 / 10,
         }}
         className={classes.item}
-        onClick={props.onClick}
+        onClick={onClick}
       >
         <NavLink
           to="/"
@@ -35,7 +37,7 @@ const NavItems = (props) => {
           delay: 0.1 + 1 / 10,
         }}
         className={classes.item}
-        onClick={props.onClick}
+        onClick={onClick}
       >
         <NavLink
           to="projects"
@@ -46,6 +48,11 @@ const NavItems = (props) => {
       </motion.li>
     </>
   );
+};
+
+// Define PropTypes for the NavItems component
+NavItems.propTypes = {
+  onClick: PropTypes.func.isRequired, // onClick should be a function and is required
 };
 
 export default NavItems;

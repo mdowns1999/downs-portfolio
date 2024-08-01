@@ -1,5 +1,5 @@
 import classes from "./Footer.module.css";
-
+import LinkedIn from "../../assets/images/In-White-40.png"
 const Footer = () => {
   //Get Year for Footer
   const year = new Date().getFullYear();
@@ -18,7 +18,7 @@ const Footer = () => {
         >
           <img
             className={classes.linkedin}
-            src={require("../../assets/images/In-White-40.png")}
+            src={LinkedIn}
             alt="LinkedIn Logo"
           ></img>
         </a>

@@ -3,6 +3,7 @@ import classes from "./HomePage.module.css";
 import SkillChart from "./SkillChart";
 import resume from "../../assets/files/downsResume.pdf";
 import { Link } from "react-router-dom";
+import profilePhoto from "../../assets/images/profilePhoto.jpg"
 
 const HomePage = () => {
   return (
@@ -51,7 +52,7 @@ const HomePage = () => {
           </div>
 
           <img
-            src={require("../../assets/images/profilePhoto.jpg")}
+            src={profilePhoto}
             alt="Mike Downs"
           ></img>
         </section>
