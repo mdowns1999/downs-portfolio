@@ -10,8 +10,8 @@ const ProjectDetailPage = () => {
   let project = data.find((project) => project.id === +params.id);
 
   let btns = project.links.map((link, index) => (
-    <a href={link.link} rel="noreferrer" target="_blank">
-    <Button key={index}>
+    <a key={index} href={link.link} rel="noreferrer" target="_blank">
+    <Button>
         {link.name}
     </Button>
     </a>

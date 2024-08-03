@@ -1,24 +1,29 @@
+// Import all images
+import poppinSoda from "../assets/images/poppinSoda.jpg";
+import styleStage from "../assets/images/styleStage.jpg";
+import byuiRebuild from "../assets/images/BYUIHomePage.jpg";
+import weatherApp from "../assets/images/weatherForecast.jpg";
+import chess from "../assets/images/chessPic.jpg";
+import orbitSimulator from "../assets/images/orbitPic.jpg";
+import phpMotors from "../assets/images/phpMotorsHome.jpg";
+import cSharpAtm from "../assets/images/cSharpAtm.jpg";
+import blank from "../assets/images/blank.png";
+
+// Create a mapping of image names to imported images
+const imageMap = {
+  "Poppin Soda": poppinSoda,
+  "Style Stage": styleStage,
+  "BYUI Rebuild": byuiRebuild,
+  "Weather App": weatherApp,
+  "Chess": chess,
+  "Orbit Simulator": orbitSimulator,
+  "PHP Motors": phpMotors,
+  "C# ATM": cSharpAtm,
+};
+
+// Define the getImage function
 const getImage = (imageName) => {
-  switch (imageName) {
-    case "Poppin Soda":
-      return require("../assets/images/poppinSoda.jpg");
-    case "Style Stage":
-      return require("../assets/images/styleStage.jpg");
-    case "BYUI Rebuild":
-      return require("../assets/images/BYUIHomePage.jpg");
-    case "Weather App":
-      return require("../assets/images/weatherForecast.jpg");
-    case "Chess":
-      return require("../assets/images/chessPic.jpg");
-    case "Orbit Simulator":
-      return require("../assets/images/orbitPic.jpg");
-    case "PHP Motors":
-      return require("../assets/images/phpMotorsHome.jpg");
-    case "C# ATM":
-      return require("../assets/images/cSharpAtm.jpg");
-    default:
-      return require("../assets/images/blank.png");
-  }
+  return imageMap[imageName] || blank;
 };
 
 export default getImage;

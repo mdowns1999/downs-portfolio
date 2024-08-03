@@ -2,7 +2,7 @@ import { useState } from "react";
 import RadioButton from "../UI/RadioButton";
 import ProjectItem from "./ProjectItem";
 import classes from "./ProjectPage.module.css";
-let json = require("../../assets/project-data/projects.json");
+import json from "../../assets/project-data/projects.json";
 
 const ProjectPage = () => {
   const [selectedValue, setSelectedValue] = useState("All");
