@@ -6,7 +6,7 @@ This is my portfolio website.  I made this website to try to help showcase some 
 
 # Development Environment
 
-I used Visual Studio Code by Microsoft to program all my HTML, CSS, and JavaScript.  I used the React framework to tie all these things together.  I also used GitHub Pages to host my web page.
+I used Visual Studio Code by Microsoft to program all my HTML, CSS, and JavaScript.  I used the React framework and Vite to tie all these things together.  I also used GitHub Pages to host my web page.
 
 # Useful Websites
 * [React Hamburger Github](https://github.com/cyntler/hamburger-react)
