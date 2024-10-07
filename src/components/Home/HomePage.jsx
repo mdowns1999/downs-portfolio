@@ -3,7 +3,7 @@ import classes from "./HomePage.module.css";
 import SkillChart from "./SkillChart";
 import resume from "../../assets/files/downsResume.pdf";
 import { Link } from "react-router-dom";
-import profilePhoto from "../../assets/images/profilePhoto.jpg"
+import profilePhoto from "../../assets/images/profilePhoto.jpg";
 
 const HomePage = () => {
   return (
@@ -14,13 +14,13 @@ const HomePage = () => {
             <h1>My name is Mike Downs</h1>
 
             <p className={classes.text}>
-              I am a Software Engineer that strives to build quality projects. I
-              am a student learning the best practices in the world of web
-              development as well as how to implement good design practices to
-              strive to make my code clean, reusable, and efficient. If you want
-              to see what I have done, check out the projects page to see what I
-              have built! If you want to get ahold of me, you will find my email
-              at the bottom of the page or on my resume.
+              I am a Software Engineer dedicated to building high-quality
+              projects. As a student, I am continually learning best practices
+              in web development and focusing on implementing effective design
+              principles. My goal is to create clean, reusable, and efficient
+              code. To see my work, please visit the projects page showcasing
+              some of my work! If you’d like to get in touch, my email is
+              available at the bottom of the page or on my resume.
             </p>
 
             <div className={classes.btnBox}>
@@ -31,31 +31,52 @@ const HomePage = () => {
           </section>
         </div>
 
-        <section className={classes.aboutBox}>
-          <div>
-            <h1>Personal life</h1>
+        <div className={classes.experienceWrapper}>
+          <section className={classes.experienceBox}>
+            <img src={profilePhoto} alt="Mike Downs"></img>
 
-            <p className={classes.text}>
-              I was born and raised in Rexburg Idaho. I graduated from Madison
-              High School in 2017. I then served a two year mission for the
-              Church of Jesus Christ of Latter Day Saints. After returning from
-              my mission I started attending school at Brigham Young University
-              - Idaho (BYU-I). I graduated April 2024. I enjoy the outdoors,
-              reading, and being with my family.
-            </p>
+            <div>
+              <h1>Work Experience</h1>
 
-            <p className={classes.text}>
-              My major is Software Engineering. In my major, I have earned
-              certificates in Software Desgin, Web Development, and Computer
-              Programming.
-            </p>
-          </div>
+              <p className={classes.text}>
+                I began my programming journey at Brigham Young University –
+                Idaho, where I earned a bachelor’s in Software Engineering and
+                three certificates in Computer Programming, Software Design, and
+                Web Development. Through my studies, I developed a strong
+                foundation in Python, C#, C++, and full stack web development
+                using JavaScript, React, and the MERN stack (MongoDB, Express,
+                React, Node).
+              </p>
 
-          <img
-            src={profilePhoto}
-            alt="Mike Downs"
-          ></img>
-        </section>
+              <p className={classes.text}>
+                I’ve worked as a technical intern at FamilySearch, where I
+                contributed to the Frontier Core architectural team, maintaining
+                and enhancing a React-based design library. I also collaborated
+                on FamilySearch Labs, launching a project in just two weeks for
+                the RootsTech conference, which attracted 23,000 visitors within
+                days of its unveiling. Afterward, I was invited back for a
+                second internship on the Tree Web team, where I currently
+                develop new features for FamilySearch’s genealogy trees using
+                TypeScript, React, and CSS.
+              </p>
+
+              <p className={classes.text}>
+                In addition, I worked with Hangar Marketing, helping to maintain
+                a site for Elavon, a subsidiary of U.S. Bank. I resolved
+                deployment issues on the AppDirect platform, publishing the site
+                and implementing key updates within three weeks. Currently, I
+                continue to provide support through training, bug fixes, and
+                package updates.
+              </p>
+
+              <div className={classes.btnBox}>
+                <a href={resume} target="_blank" rel="noreferrer">
+                  <Button>See Resume</Button>
+                </a>
+              </div>
+            </div>
+          </section>
+        </div>
 
         <div className={classes.skilsWrapper}>
           <section className={classes.skillsBox}>
@@ -63,27 +84,22 @@ const HomePage = () => {
             <div className={classes.skillsContent}>
               <h1>My Skills</h1>
               <p className={classes.text}>
-                I have worked on a number of projects. I know a handful of
-                languages. I am more familiar with some than others, but those
-                languages include: Python, C++, HTML, CSS, Javascript, and
-                MYSQL. I have also used Javascript frameworks like React and
-                Angular. I have also done a little backend work with Node,
-                Epxress, and MongoDB. The progress bars down below show my exact
-                familiarity with each language.
+                I have worked on a variety of projects and am proficient in
+                several programming languages, including Python, C++, HTML, CSS,
+                JavaScript, and MySQL. While my familiarity varies, I have
+                experience with JavaScript frameworks such as React and Angular,
+                as well as backend development using Node.js, Express, and
+                MongoDB. The progress bars below indicate my proficiency in each
+                language and framework.
               </p>
 
               <p className={classes.text}>
-                Outside of programming, I strive to be diligent in my work and
-                work well with teams. I am good at time management and have
-                developed a good work ethic from my previous jobs. To see some
-                of the other jobs I have worked, feel free to look at my resume
-                below.
+                Outside of programming, I am diligent and thrive in team
+                environments. My strong time management skills and work ethic,
+                developed through my previous roles, enable me to contribute
+                effectively. For more details about my work history, please
+                refer to my resume.
               </p>
-              <div className={classes.btnBox}>
-                <a href={resume} target="_blank" rel="noreferrer">
-                  <Button>See Resume</Button>
-                </a>
-              </div>
             </div>
           </section>
         </div>

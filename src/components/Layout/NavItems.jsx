@@ -40,6 +40,25 @@ const NavItems = ({ onClick }) => {
         onClick={onClick}
       >
         <NavLink
+          to="about"
+          className={({ isActive }) => (isActive ? classes.active : undefined)}
+        >
+          About
+        </NavLink>
+      </motion.li>
+      <motion.li
+        initial={{ scale: 0, opacity: 0 }}
+        animate={{ scale: 1, opacity: 1 }}
+        transition={{
+          type: "spring",
+          stiffness: 260,
+          damping: 20,
+          delay: 0.1 + 1 / 10,
+        }}
+        className={classes.item}
+        onClick={onClick}
+      >
+        <NavLink
           to="projects"
           className={({ isActive }) => (isActive ? classes.active : undefined)}
         >
