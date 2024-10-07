@@ -18,9 +18,9 @@ const HomePage = () => {
               projects. As a student, I am continually learning best practices
               in web development and focusing on implementing effective design
               principles. My goal is to create clean, reusable, and efficient
-              code. To see my work, please visit the projects page showcasing
-              some of my work! If you’d like to get in touch, my email is
-              available at the bottom of the page or on my resume.
+              code. To see my work, please visit the projects page to see what I
+              have done! If you’d like to get in touch, my email is available at
+              the bottom of the page or on my resume that is linked below.
             </p>
 
             <div className={classes.btnBox}>
@@ -40,12 +40,12 @@ const HomePage = () => {
 
               <p className={classes.text}>
                 I began my programming journey at Brigham Young University –
-                Idaho, where I earned a bachelor’s in Software Engineering and
-                three certificates in Computer Programming, Software Design, and
-                Web Development. Through my studies, I developed a strong
-                foundation in Python, C#, C++, and full stack web development
-                using JavaScript, React, and the MERN stack (MongoDB, Express,
-                React, Node).
+                Idaho, where I earned a bachelor’s degree in Software
+                Engineering and three certificates in Computer Programming,
+                Software Design, and Web Development. Through my studies, I
+                developed a strong foundation in Python, C#, C++, and full stack
+                web development using JavaScript, React, and the MERN stack
+                (MongoDB, Express, React, Node).
               </p>
 
               <p className={classes.text}>
@@ -63,8 +63,9 @@ const HomePage = () => {
               <p className={classes.text}>
                 In addition, I worked with Hangar Marketing, helping to maintain
                 a site for Elavon, a subsidiary of U.S. Bank. I resolved
-                deployment issues on the AppDirect platform, publishing the site
-                and implementing key updates within three weeks. Currently, I
+                deployment issues on the AppDirect platform, republishing the
+                site and implementing key updates within three weeks after the
+                site was left unmaintained for about six months. Currently, I
                 continue to provide support through training, bug fixes, and
                 package updates.
               </p>
@@ -87,7 +88,7 @@ const HomePage = () => {
                 I have worked on a variety of projects and am proficient in
                 several programming languages, including Python, C++, HTML, CSS,
                 JavaScript, and MySQL. While my familiarity varies, I have
-                experience with JavaScript frameworks such as React and Angular,
+                experience with some JavaScript frameworks such as React and Angular,
                 as well as backend development using Node.js, Express, and
                 MongoDB. The progress bars below indicate my proficiency in each
                 language and framework.

@@ -2,7 +2,7 @@
   {
     "id": 1,
     "name": "Poppin Soda",
-    "description": "This website was a project I created for my senior project.  The goal of this project was to learn something I have never done up to that point in my schooling.  I wanted to earn React, so I found a course online and started learning React a month before even beginning my project.  The site is a mock of a soda business website.  It has a functional cart, checkout, and review section.  Feel free to play around with it!",
+    "description": "This website was a project I created for my senior project.  The goal of this project was to learn something I have never done up to that point in my schooling.  I wanted to learn React, so I found a course online through UDEMY and started learning React a month before even beginning my project.  This site kickstarted my love of building applications in React. The site is a mock of a soda business website.  It has a functional cart, checkout, and review section.  Feel free to play around with it!",
     "skills": ["React", "JavaScript", "HTML", "CSS"],
     "links": [
       {
@@ -53,7 +53,7 @@
   {
     "id": 4,
     "name": "Weather App",
-    "description": "This project is a simple Five Day Weather forecast of three different cities.  The purpose of this site was to practice applying various topics in JavaScript that I learned from some Web Development classes.  The topics include: Fetching and using a JSON file from an API, storing and using information from local storage, and using JavaScript Objects in general.",
+    "description": "This project is a simple Five Day Weather forecast of three different cities.  The purpose of this site was to practice applying various topics in JavaScript that I learned from some Web Development classes.  These topics include: Fetching and using a JSON file from an API, storing and using information with local storage, and using JavaScript Objects in general.",
     "skills": ["Javascript", "HTML", "CSS", "SCSS"],
     "links": [
       {
@@ -96,7 +96,7 @@
   {
     "id": 7,
     "name": "PHP Motors",
-    "description": "This project is a project is a simple website that does a few different things.  The website allows the user to view several different cars that you could ‘buy’.  The website also allows you to log in, view your account information, and logout.  A search feature has also been implemented where you can search all the vehicles on the website.  where I used PHP on the backend to help deliver content to the client’s view. The type of database that I used was a relational database.",
+    "description": "This project is a project is a simple website that does a few different things.  The website allows the user to view several different cars that you could ‘buy’.  The website also allows you to log in, view your account information, and logout.  A search feature has also been implemented where you can search all the vehicles on the website where I used PHP on the backend to help deliver content to the client’s view. The type of database that I used was a relational database.",
     "skills": ["PHP", "HTML", "CSS", "Javascript"],
     "links": [
       {

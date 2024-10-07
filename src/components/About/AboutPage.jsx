@@ -13,7 +13,7 @@ const AboutPage = () => {
           for the Church of Jesus Christ of Latter-day Saints. Upon returning, I
           attended Brigham Young University – Idaho (BYU-I), where I graduated
           in April 2024 with a bachelor&apos;s degree in Software Engineering.
-          Outside of academics, I enjoy unwinding by reading or watching TV
+          Outside of academics, I enjoy unwinding by reading various books or watching TV
           shows like Magnum PI and Hawaii 5-0. I also love spending time
           with my wife and friends, especially when we go dancing—Latin,
           ballroom, and country.
