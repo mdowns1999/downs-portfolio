@@ -14,13 +14,13 @@ const HomePage = () => {
             <h1>My name is Mike Downs</h1>
 
             <p className={classes.text}>
-              I am a Software Engineer dedicated to building high-quality
-              projects. As a student, I am continually learning best practices
-              in web development and focusing on implementing effective design
+              I am a passionate Software Engineer dedicated to building
+              high-quality projects. I am continually learning best practices in
+              web development and focusing on implementing effective design
               principles. My goal is to create clean, reusable, and efficient
-              code. To see my work, please visit the projects page to see what I
-              have done! If you’d like to get in touch, my email is available at
-              the bottom of the page or on my resume that is linked below.
+              code. To explore my work, please visit the projects page. If you
+              would like to connect, you can find my email at the bottom of the
+              page or in my resume, linked below.
             </p>
 
             <div className={classes.btnBox}>
@@ -40,12 +40,12 @@ const HomePage = () => {
 
               <p className={classes.text}>
                 I began my programming journey at Brigham Young University –
-                Idaho, where I earned a bachelor’s degree in Software
-                Engineering and three certificates in Computer Programming,
+                Idaho, where I earned a bachelor’s degree in software
+                engineering and three certificates in Computer Programming,
                 Software Design, and Web Development. Through my studies, I
-                developed a strong foundation in Python, C#, C++, and full stack
-                web development using JavaScript, React, and the MERN stack
-                (MongoDB, Express, React, Node).
+                developed a strong foundation in Python, C#, C++, and full-stack
+                web development mainly focusing on the MERN stack (MongoDB,
+                Express, React, Node).
               </p>
 
               <p className={classes.text}>
@@ -57,7 +57,8 @@ const HomePage = () => {
                 days of its unveiling. Afterward, I was invited back for a
                 second internship on the Tree Web team, where I currently
                 develop new features for FamilySearch’s genealogy trees using
-                TypeScript, React, and CSS.
+                TypeScript, React, and CSS. These trees and person pages are
+                visited by thousands of people a day.
               </p>
 
               <p className={classes.text}>
@@ -88,10 +89,10 @@ const HomePage = () => {
                 I have worked on a variety of projects and am proficient in
                 several programming languages, including Python, C++, HTML, CSS,
                 JavaScript, and MySQL. While my familiarity varies, I have
-                experience with some JavaScript frameworks such as React and Angular,
-                as well as backend development using Node.js, Express, and
-                MongoDB. The progress bars below indicate my proficiency in each
-                language and framework.
+                experience with some JavaScript frameworks such as React and
+                Angular, as well as backend development using Node.js, Express,
+                and MongoDB. The progress bars below indicate my proficiency in
+                each language and framework.
               </p>
 
               <p className={classes.text}>
