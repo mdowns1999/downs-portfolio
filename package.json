@@ -2,7 +2,7 @@
   "name": "mikedownsportfolio",
   "homepage": "https://mdowns1999.github.io/downs-portfolio",
   "private": true,
-  "version": "1.0.0",
+  "version": "1.0.1",
   "type": "module",
   "scripts": {
     "dev": "vite",
