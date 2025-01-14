@@ -55,10 +55,9 @@ const HomePage = () => {
                 on FamilySearch Labs, launching a project in just two weeks for
                 the RootsTech conference, which attracted 23,000 visitors within
                 days of its unveiling. Afterward, I was invited back for a
-                second internship on the Tree Web team, where I currently
-                develop new features for FamilySearch’s genealogy trees using
-                TypeScript, React, and CSS. These trees and person pages are
-                visited by thousands of people a day.
+                second internship on the Tree Web team, where I
+                developed new features for FamilySearch’s genealogy trees using
+                TypeScript, React, and CSS. I currently work as a Software Developer 2 on the Chinese Ginkgo team.
               </p>
 
               <p className={classes.text}>
@@ -66,8 +65,8 @@ const HomePage = () => {
                 a site for Elavon, a subsidiary of U.S. Bank. I resolved
                 deployment issues on the AppDirect platform, republishing the
                 site and implementing key updates within three weeks after the
-                site was left unmaintained for about six months. Currently, I
-                continue to provide support through training, bug fixes, and
+                site was left unmaintained for about six months. During my time there, I
+                provided support through training, bug fixes, and
                 package updates.
               </p>
 
