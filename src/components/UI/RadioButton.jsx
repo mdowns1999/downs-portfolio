@@ -1,7 +1,6 @@
-import PropTypes from "prop-types"; // Import PropTypes
+import PropTypes from "prop-types";
 import classes from "./RadioButton.module.css";
 
-// Define the RadioButton component
 const RadioButton = ({ setSelectedValue, name, value, id, label }) => {
   const handleRadioChange = (event) => {
     setSelectedValue(event.target.value);
@@ -22,13 +21,12 @@ const RadioButton = ({ setSelectedValue, name, value, id, label }) => {
   );
 };
 
-// Define PropTypes for the RadioButton component
 RadioButton.propTypes = {
-  setSelectedValue: PropTypes.func.isRequired, // setSelectedValue should be a function and is required
-  name: PropTypes.string.isRequired,            // name should be a string and is required
-  value: PropTypes.string.isRequired,           // value should be a string and is required
-  id: PropTypes.string.isRequired,              // id should be a string and is required
-  label: PropTypes.string.isRequired            // label should be a string and is required
+  setSelectedValue: PropTypes.func.isRequired,
+  name: PropTypes.string.isRequired,
+  value: PropTypes.string.isRequired,
+  id: PropTypes.string.isRequired,
+  label: PropTypes.string.isRequired,
 };
 
 export default RadioButton;

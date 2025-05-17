@@ -1,19 +1,47 @@
-import PropTypes from "prop-types"; // Import PropTypes
+import PropTypes from "prop-types";
+import { Link } from "react-router-dom"; // Import Link from React Router
 import classes from "./Button.module.css";
 
-// Define the Button component
-const Button = ({ children, onClick }) => {
+const Button = ({ children, onClick, style, to, external = false, ...rest }) => {
+
+  if (to && external) {
+    return (
+      <a
+        href={to}
+        className={classes.button}
+        style={style}
+        target="_blank" 
+        rel="noreferrer"
+        {...rest} 
+      >
+        {children}
+      </a>
+    );
+  } else if (to) {
+    return (
+      <Link to={to} className={classes.button} style={style} {...rest}>
+        {children}
+      </Link>
+    );
+  }
+
+
   return (
-    <button className={classes.button} onClick={onClick}>
+    <button className={classes.button} onClick={onClick} style={style} {...rest}>
       {children}
     </button>
   );
 };
 
-// Define PropTypes for the Button component
 Button.propTypes = {
-  children: PropTypes.node.isRequired, // children can be any renderable React node and is required
-  onClick: PropTypes.func.isRequired,   // onClick should be a function and is required
+  children: PropTypes.node.isRequired,
+  onClick: PropTypes.func,
+  style: PropTypes.object,
+  to: PropTypes.string,
+};
+
+Button.defaultProps = {
+  onClick: () => {},
 };
 
 export default Button;

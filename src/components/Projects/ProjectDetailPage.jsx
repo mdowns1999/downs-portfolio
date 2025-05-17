@@ -4,17 +4,17 @@ import data from "../../assets/project-data/projects.json";
 import SkillsList from "./SkillsList";
 import Button from "../UI/Button";
 import getImage from "../../helper/getImage";
+import Paragraph from "../UI/Paragraph";
+import Image from "../UI/Image";
 
 const ProjectDetailPage = () => {
   const params = useParams();
   let project = data.find((project) => project.id === +params.id);
 
-  let btns = project.links.map((link, index) => (
-    <a key={index} href={link.link} rel="noreferrer" target="_blank">
-    <Button>
-        {link.name}
+  let btns = project.links.map((link) => (
+    <Button key={link.name} to={link.link} external>
+      {link.name}
     </Button>
-    </a>
   ));
 
   let image = getImage(project.name);
@@ -24,11 +24,10 @@ const ProjectDetailPage = () => {
 
   return (
     <div className={classes.project}>
-      <img src={image} alt="Product Item" />
-
+      <Image src={image} alt="Product Item" />
       <div className={classes.content}>
         <h1>{project.name}</h1>
-        <p>{project.description}</p>
+        <Paragraph>{project.description}</Paragraph>
         <div className={classes.skills}>
           <h2>Skills:</h2>
           <SkillsList skills={project.skills} id={project.id} />

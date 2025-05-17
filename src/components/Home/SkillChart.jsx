@@ -1,6 +1,7 @@
 import { useInView } from "react-intersection-observer";
 import Skill from "./Skill";
 import classes from "./SkillChart.module.css";
+import Paragraph from "../UI/Paragraph";
 //https://www.npmjs.com/package/@ramonak/react-progress-bar
 const SkillChart = () => {
   const SKILLS = [
@@ -21,10 +22,10 @@ const SkillChart = () => {
 
   return (
     <div ref={ref} className={classes.skills}>
-      <p className={classes.skillsNote}>A chart showing my level of knowledge for each language</p>
+      <Paragraph size="small">A chart showing my level of knowledge for each language</Paragraph>
       {SKILLS.map((skill, index) => (
         <Skill
-          key={index}
+          key={skill.name}
           name={skill.name}
           completed={skill.completed}
           inView={inView}

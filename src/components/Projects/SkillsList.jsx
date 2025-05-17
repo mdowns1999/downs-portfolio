@@ -1,7 +1,6 @@
-import PropTypes from "prop-types"; // Import PropTypes
+import PropTypes from "prop-types"; 
 import classes from "./SkillsList.module.css";
 
-// Define the SkillsList component
 const SkillsList = ({ skills, id }) => {
   return (
     <ul className={classes.list}>
