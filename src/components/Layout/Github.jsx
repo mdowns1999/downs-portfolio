@@ -9,6 +9,7 @@ const Github = () => {
       className={classes.githubLogo}
       src={githubLogo}
       alt="Github Logo"
+      external
     />
   );
 }; 

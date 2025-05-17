@@ -29,7 +29,7 @@ const Image = ({
         <a
           href={to}
           className={classes.imageLink}
-          {...rest}
+          {...props}
           rel="noreferrer" target="_blank"
         >
           {imgElement}
