@@ -1,4 +1,5 @@
 import getImage from "../../helper/getImage";
+import Image from "../UI/Image";
 import classes from "./ProjectItem.module.css";
 import SkillsList from "./SkillsList";
 import { Link } from "react-router-dom";
@@ -8,7 +9,7 @@ const ProjectItem = (props) => {
   return (
     <li className={classes.item}>
       <Link to={`/projects/${props.id}`} className={classes.itemLink}>
-        <img
+        <Image
           src={image}
           alt={`${props.name} Project Link`}
         />

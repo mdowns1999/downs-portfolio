@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import PropTypes from "prop-types"; // Import PropTypes
 import classes from "./Skill.module.css";
 import ProgressBar from "@ramonak/react-progress-bar";
+import Paragraph from "../UI/Paragraph";
 
 // Define the Skill component
 const Skill = ({ completed, inView, name }) => {
@@ -15,8 +16,8 @@ const Skill = ({ completed, inView, name }) => {
 
   return (
     <div className={classes.skill}>
-      <p>{name}</p>
-      <div className={classes.progressBar}>
+      <Paragraph>{name}</Paragraph>
+      <div className={classes.progressBar} aria-label={`Progress Bar. Skill: ${name}. Knowledge Level: ${progressNum}%`}>
         <ProgressBar
           labelColor="black"
           bgColor="#FFD500"

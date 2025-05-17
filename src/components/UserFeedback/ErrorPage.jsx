@@ -2,6 +2,7 @@ import { useRouteError } from "react-router-dom";
 import Footer from "../Layout/Footer";
 import Header from "../Layout/Header";
 import classes from "./ErrorPage.module.css";
+import Paragraph from "../UI/Paragraph";
 
 const ErrorPage = () => {
   const error = useRouteError();
@@ -21,7 +22,7 @@ const ErrorPage = () => {
         <main>
           <div className={classes.ErrorBox}>
             <h1 className="pageBanner">{title}</h1>
-            <p>{message}</p>
+            <Paragraph>{message}</Paragraph>
           </div>
         </main>
         <Footer/>

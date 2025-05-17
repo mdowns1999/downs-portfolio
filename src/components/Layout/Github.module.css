@@ -1,0 +1,15 @@
+.githubLogo{
+    width: 55px;
+    border-radius: 150px;
+    text-align: center;
+    margin: 15px;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    background-color: white;
+  }
+  
+  .githubLogo:hover{
+   transition: .25s;
+    background-color: var(--accentTwo, #FFD500);
+  }
