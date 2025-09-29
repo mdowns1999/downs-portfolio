@@ -30,7 +30,7 @@ const HomePage = () => {
 
         <div className={classes.experienceWrapper}>
           <section className={classes.experienceBox}>
-            <Image src={profilePhoto} alt="Mike Downs" />
+            <Image src={profilePhoto} alt="Mike Downs" id="profile-photo" />
 
             <div>
               <h1>Work Experience</h1>
