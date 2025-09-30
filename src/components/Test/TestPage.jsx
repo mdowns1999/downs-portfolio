@@ -24,9 +24,8 @@ const breakAfterStyle = css`
 
 const PageBreakTest = () => {
   return (
-    <div>
+    <div id="print-content">
       <h1>Page Break Test</h1>
-
       <div css={sectionStyle} className="page">
         <p>This is the first section. It should appear on the first page.</p>
       </div>

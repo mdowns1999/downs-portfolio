@@ -5,6 +5,7 @@ import Image from "../UI/Image";
 
 const AboutPage = () => {
   return (
+  <>
     <section className={classes.aboutBox}>
       <div>
         <h1>Personal life</h1>
@@ -23,6 +24,8 @@ const AboutPage = () => {
       </div>
       <Image src={couplePhoto} alt="Mike and Jami Downs" />
     </section>
+    <p>TEST PARAGRAGH</p>
+  </>
   );
 };
 
