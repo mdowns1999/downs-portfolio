@@ -34,3 +34,31 @@
     gap: 3em;
   }
 }
+
+
+.section {
+  padding: 20px;
+  margin: 20px 0;
+  border: 2px dashed #333;
+  background-color: #f9f9f9;
+  /* Prevent breaking inside this section */
+  page-break-inside: avoid;
+  break-inside: avoid;
+}
+
+.breakBefore {
+  break-before: page;
+  page-break-before: always;
+}
+
+.breakAfter {
+  break-after: page;
+  page-break-after: always;
+}
+
+.pageBreak {
+  display: block;
+  height: 0;
+  page-break-after: always;
+  break-after: page;
+}
