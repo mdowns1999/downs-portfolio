@@ -5,7 +5,6 @@ import ProjectDetailPage from "./components/Projects/ProjectDetailPage";
 import { RouterProvider, createBrowserRouter } from "react-router-dom";
 import ErrorPage from "./components/UserFeedback/ErrorPage";
 import AboutPage from "./components/About/AboutPage";
-import PageBreakTest from "./components/Test/TestPage";
 
 const router = createBrowserRouter(
   [
@@ -18,7 +17,6 @@ const router = createBrowserRouter(
         { path: "about", element: <AboutPage /> },
         { path: "projects", element: <ProjectPage /> },
         { path: "projects/:id", element: <ProjectDetailPage /> },
-        { path: "test", element: <PageBreakTest /> },
       ],
     },
   ],
