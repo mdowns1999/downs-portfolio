@@ -10,7 +10,8 @@ const Skill = ({ completed, inView, name }) => {
 
   useEffect(() => {
     if (inView) {
-      setProgressNum(completed);
+      // Use setTimeout to avoid synchronous setState in effect
+      setTimeout(() => setProgressNum(completed), 0);
     }
   }, [inView, completed]);
 

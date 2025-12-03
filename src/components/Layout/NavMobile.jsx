@@ -1,27 +1,18 @@
 import { useClickAway } from "react-use";
-import { useEffect, useRef } from "react";
-import { useState } from "react";
+import { useRef, useState } from "react";
 import { Squeeze as Hamburger } from "hamburger-react";
 import classes from "./NavMobile.module.css";
 import NavItems from "./NavItems";
 
 export const NavMobile = () => {
   const [isOpen, setOpen] = useState(false);
-  const [isClicked, setIsClicked] = useState(false);
   const ref = useRef(null);
 
   useClickAway(ref, () => setOpen(false));
 
   const handleClick = () => {
-    setIsClicked(true);
+    setOpen(false);
   };
-
-  useEffect(() => {
-    if (isClicked) {
-      setOpen(false);
-      setIsClicked(false);
-    }
-  }, [isClicked]);
 
   return (
     <div ref={ref} className={classes.mobileNavBox}>

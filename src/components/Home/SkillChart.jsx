@@ -23,7 +23,7 @@ const SkillChart = () => {
   return (
     <div ref={ref} className={classes.skills}>
       <Paragraph size="small">A chart showing my level of knowledge for each language</Paragraph>
-      {SKILLS.map((skill, index) => (
+      {SKILLS.map((skill) => (
         <Skill
           key={skill.name}
           name={skill.name}

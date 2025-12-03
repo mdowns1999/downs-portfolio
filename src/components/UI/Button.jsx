@@ -38,6 +38,7 @@ Button.propTypes = {
   onClick: PropTypes.func,
   style: PropTypes.object,
   to: PropTypes.string,
+  external: PropTypes.bool,
 };
 
 Button.defaultProps = {

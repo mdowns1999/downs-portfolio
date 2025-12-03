@@ -1,3 +1,4 @@
+import PropTypes from "prop-types";
 import classes from "./Paragraph.module.css";
 
 export default function Paragraph({
@@ -37,3 +38,11 @@ export default function Paragraph({
     </p>
   );
 }
+
+Paragraph.propTypes = {
+  children: PropTypes.node,
+  className: PropTypes.string,
+  style: PropTypes.object,
+  size: PropTypes.oneOf(["small", "medium", "large"]),
+  bold: PropTypes.bool,
+};

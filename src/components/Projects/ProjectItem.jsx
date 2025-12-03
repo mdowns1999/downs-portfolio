@@ -1,3 +1,4 @@
+import PropTypes from "prop-types";
 import getImage from "../../helper/getImage";
 import Image from "../UI/Image";
 import classes from "./ProjectItem.module.css";
@@ -22,6 +23,12 @@ const ProjectItem = (props) => {
       </Link>
     </li>
   );
+};
+
+ProjectItem.propTypes = {
+  name: PropTypes.string.isRequired,
+  id: PropTypes.string.isRequired,
+  skills: PropTypes.array.isRequired,
 };
 
 export default ProjectItem;
