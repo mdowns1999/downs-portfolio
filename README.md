@@ -1,14 +1,37 @@
-# Overview
+# Mike Downs — Portfolio
 
-This is my portfolio website.  I made this website to try to help showcase some of the projects that I have built during my time at BYU-I and on my own.  My goal was to make it very simple with the layout and functionality. I built this site using the React framework. This is entirely a simple front-end application.  I used a JSON file to bring in my data dynamically and to make it easier to update my site. For simplicity's sake, I used a library for my hamburger button, a library for simple CSS animations, and a library for my progress bars.
+A personal portfolio site showcasing projects I've built during my time at BYU-I and beyond. The goal was a clean, simple design that's easy to keep up to date.
 
-* [Go to Live Portfolio Site](https://mdowns1999.github.io/downs-portfolio/)
+* [Live Site](https://mdowns1999.github.io/downs-portfolio/)
 
-# Development Environment
+## Tech Stack
 
-I used Visual Studio Code by Microsoft to program all my HTML, CSS, and JavaScript.  I used the React framework and Vite to tie all these things together.  I also used GitHub Pages to host my web page.
+| Layer | Technology |
+|---|---|
+| Framework | React 19 |
+| Build tool | Vite |
+| UI library | Material UI (MUI) v9 |
+| Routing | React Router v7 |
+| Animations | Framer Motion |
+| Hosting | GitHub Pages |
 
-# Useful Websites
-* [React Hamburger Github](https://github.com/cyntler/hamburger-react)
-* [React Progress Bar](https://www.npmjs.com/package/@ramonak/react-progress-bar)
-* [Framer Motion](https://www.npmjs.com/package/framer-motion)
+## Features
+
+- **Dark mode** — toggle between light and dark themes via the sun/moon icon in the header. Initial mode is based on system preference and persists across sessions via `localStorage`.
+- **Responsive layout** — desktop nav collapses to a slide-out drawer on mobile.
+- **Project data** — all project content lives in a single JSON file (`src/assets/project-data/projects.json`), making updates straightforward.
+
+## Development
+
+```bash
+npm run dev       # Start dev server
+npm run build     # Production build
+npm run preview   # Preview production build locally
+npm run lint      # ESLint (zero warnings)
+npm run deploy    # Build + publish to GitHub Pages
+```
+
+## Useful Links
+
+* [MUI Documentation](https://mui.com/)
+* [Framer Motion](https://www.framer.com/motion/)

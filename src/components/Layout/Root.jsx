@@ -1,7 +1,6 @@
 import { Outlet } from "react-router-dom";
 import Footer from "./Footer";
 import Header from "./Header";
-import Github from "./Github";
 
 function RootLayout() {
   return (
@@ -11,8 +10,6 @@ function RootLayout() {
         <Outlet />
       </main>
       <Footer />
-      <Github />
-      
     </div>
   );
 }

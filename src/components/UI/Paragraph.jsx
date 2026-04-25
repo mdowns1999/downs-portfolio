@@ -1,48 +1,25 @@
-import PropTypes from "prop-types";
-import classes from "./Paragraph.module.css";
+import PropTypes from 'prop-types';
+import Typography from '@mui/material/Typography';
 
-export default function Paragraph({
-  children,
-  className,
-  style,
-  size = "medium",
-  bold = false,
-}) {
-  const paragraphClasses = [classes.text];
+const sizeMap = { xs: 'caption', sm: 'body2', md: 'body1', lg: 'h6' };
 
-  // Apply size classes
-  if (size === "small") {
-    paragraphClasses.push(classes.small);
-  } else if (size === "large") {
-    paragraphClasses.push(classes.large);
-  } else {
-    paragraphClasses.push(classes.medium);
-  }
-
-  // Apply bold class
-  if (bold) {
-    paragraphClasses.push(classes.bold);
-  }
-
-  // Add any external class names
-  if (className) {
-    paragraphClasses.push(className);
-  }
-
-  // Join all active class names
-  const finalClasses = paragraphClasses.join(" ");
-
+export default function Paragraph({ centered = false, children, size = 'md', sx = {}, ...props }) {
   return (
-    <p className={finalClasses} style={style}>
+    <Typography
+      component="p"
+      variant={sizeMap[size]}
+      gutterBottom
+      sx={{ textAlign: centered ? 'center' : 'left', ...sx }}
+      {...props}
+    >
       {children}
-    </p>
+    </Typography>
   );
 }
 
 Paragraph.propTypes = {
+  centered: PropTypes.bool,
   children: PropTypes.node,
-  className: PropTypes.string,
-  style: PropTypes.object,
-  size: PropTypes.oneOf(["small", "medium", "large"]),
-  bold: PropTypes.bool,
+  size: PropTypes.oneOf(['xs', 'sm', 'md', 'lg']),
+  sx: PropTypes.object,
 };

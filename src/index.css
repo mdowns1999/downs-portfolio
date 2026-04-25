@@ -1,49 +1,5 @@
-:root {
-  --primaryColor: #2E4057;
-  --secondaryColor: #9cafb7;
-  --accentOne: #2E8B57;
-  --accentTwo: #FFD500;
-  --accentThree: #4281A4;
-}
-
 * {
   box-sizing: border-box;
-}
-
-body {
-  margin: 0;
-  /* background-color: #f4f4f4; */
-}
-
-
-html {
-  height: 100%;
-  font-family: "Montserrat", sans-serif;
-  font-size: 20px;
-}
-
-h1,
-h2,
-h3,
-h4,
-p,
-a,
-ul,
-li {
-  margin: 0;
-  padding: 0;
-}
-
-h1,
-h2,
-h3,
-h4 {
-  font-family: "Source Sans 3", sans-serif;
-}
-
-a {
-  text-decoration: none;
-  color: black;
 }
 
 .container {
@@ -54,16 +10,4 @@ a {
 
 main {
   flex: 1;
-  
-}
-
-nav a{
-  color:white;
-}
-
-.banner{
-  text-align: center;
-  padding: 10px;
-  max-width: 250px;
-  margin: 1em auto;
 }
