@@ -7,6 +7,7 @@ import chess from "../assets/images/chessPic.jpg";
 import orbitSimulator from "../assets/images/orbitPic.jpg";
 import phpMotors from "../assets/images/phpMotorsHome.jpg";
 import cSharpAtm from "../assets/images/cSharpAtm.jpg";
+import routeScout from "../assets/images/routescout.png";
 import blank from "../assets/images/blank.png";
 
 // Create a mapping of image names to imported images
@@ -19,6 +20,7 @@ const imageMap = {
   "Orbit Simulator": orbitSimulator,
   "PHP Motors": phpMotors,
   "C# ATM": cSharpAtm,
+  "RouteScout": routeScout,
 };
 
 // Define the getImage function

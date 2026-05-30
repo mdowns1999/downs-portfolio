@@ -2,120 +2,95 @@
   {
     "id": 1,
     "name": "Poppin Soda",
-    "description": "This website was my senior project at BYU-I.  The project is a mock of a soda company website.  The goal of this project was to learn something I have never done up to that point in my schooling. Even though I worked on some web projects with Angular and PHP, I wanted to learn React because I saw how widely it was used in the industry.  To accomplish this, I found a course online through UDEMY and started learning React a month before even beginning my project. This site kickstarted my love of building applications in React.  With this site I explored various third-party libraries and built things into the site like a shopping cart modal and a review section using Material UI.  Since my class, I have gone back to try and refine the site by updating it to Vite and adding things like Prop-types to help root out bugs that were troubling the site.  The site is currently live and open to experiment with.",
+    "description": "My senior project at BYU-I, Poppin Soda is a mock soda company website built to learn React from scratch. Before starting, I completed a Udemy course to get up to speed, then applied that knowledge by building features like a shopping cart modal and a review section using Material UI. Since completing the course, I have returned to refine the project by migrating it to Vite and adding PropTypes for improved type safety. The site is currently live and open to explore.",
     "skills": ["React", "JavaScript", "HTML", "CSS"],
     "links": [
-      {
-        "name": "Github Repo",
-        "link": "https://github.com/mdowns1999/poppin-soda"
-      },
-      {
-        "name": "Live Demo",
-        "link": "https://mdowns1999.github.io/poppin-soda/"
-      }
+      { "name": "Github Repo", "link": "https://github.com/mdowns1999/poppin-soda" },
+      { "name": "Live Demo", "link": "https://mdowns1999.github.io/poppin-soda/" }
     ],
     "type": "Web"
   },
   {
     "id": 2,
-    "name": "Style Stage",
-    "description": "Welcome to the Style stage project!  This website was a team project. The project was the result of a challenge to style a web page and style it without touching the HTML or using JavaScript. I specifically made the header, footer and nav bar of the page. I also made the bottom part of the page with the three cards and the various buttons around it. Other parts of the page were made by my fellow teammates. This project taught me the power CSS can have on a website and helped me improve my skills of using various CSS selectors, layout tools, and creativity to get the web page to look according to the team’s designs.",
-    "skills": ["JavaScript", "HTML", "CSS", "SCSS"],
+    "name": "RouteScout",
+    "description": "A multi-step road trip planning wizard built with React, TypeScript, and the Google Maps Platform. Users enter a start and destination, choose from up to four route options, select interests from 15 categories, and receive suggested stops plotted on an interactive map. Stops can be filtered by rating, price, and distance, then reordered via drag-and-drop with live mileage and drive time updates. Completed trips can be exported to Google Maps or Apple Maps, downloaded as a GPX file, or shared via a read-only link. The app is backed by a Node/Express REST API with MongoDB, deployed on Render, and uses React Context with useReducer for state management.",
+    "skills": ["React", "TypeScript", "JavaScript", "CSS", "Node", "Express", "MongoDB"],
     "links": [
-      {
-        "name": "Github Repo",
-        "link": "https://github.com/mdowns1999/stylestage-sass-main"
-      },
-      {
-        "name": "Live Demo",
-        "link": "https://mdowns1999.github.io/stylestage-sass-main/"
-      }
+      { "name": "Github Repo", "link": "https://github.com/mdowns1999/RouteScout" },
+      { "name": "Live Demo", "link": "https://mdowns1999.github.io/RouteScout/" }
     ],
     "type": "Web"
   },
   {
     "id": 3,
-    "name": "BYUI Rebuild",
-    "description": "Welcome to the BYU-I rebuild project.  This project aimed to recreate the BYU-I home page as much as possible. The project primarily focused on using CSS for styling and structuring HTML correctly on a web page, without involving JavaScript.  I had access to some of BYUI’s fonts, colors, content, and icons to help get the look and feel just right.  This mock site is based off what the BYU-I site looked like as of April 2023. The header and the footer of the page were either simplified or excluded due to the amount of time I had to work on this project.",
-    "skills": ["HTML", "CSS", "SCSS"],
+    "name": "Style Stage",
+    "description": "A team project built around the challenge of restyling a web page using only CSS — no HTML changes, no JavaScript. I was responsible for the header, footer, navigation bar, the bottom card section, and various buttons throughout the page. The project deepened my understanding of CSS selectors, layout tools like Flexbox and Grid, and translating design concepts into code.",
+    "skills": ["JavaScript", "HTML", "CSS", "SCSS"],
     "links": [
-      {
-        "name": "Github Repo",
-        "link": "https://github.com/mdowns1999/BYUIWebsiteRebuildCode"
-      },
-      {
-        "name": "Live Demo",
-        "link": "https://mdowns1999.github.io/BYUIWebsiteRebuildCode/"
-      }
+      { "name": "Github Repo", "link": "https://github.com/mdowns1999/stylestage-sass-main" },
+      { "name": "Live Demo", "link": "https://mdowns1999.github.io/stylestage-sass-main/" }
     ],
     "type": "Web"
   },
   {
     "id": 4,
-    "name": "Weather App",
-    "description": "This project is a simple Five Day Weather forecast of three different cities. The purpose of this site was to practice applying various topics in JavaScript that I learned from some web development classes. These topics include fetching and using a JSON file from an API, storing and using information with local storage, and using JavaScript Objects.",
-    "skills": ["Javascript", "HTML", "CSS", "SCSS"],
+    "name": "BYUI Rebuild",
+    "description": "A pixel-faithful recreation of the BYU-I homepage as it appeared in April 2023, built without JavaScript. Using official BYU-I fonts, colors, icons, and content, the project focused on semantic HTML structure and precise CSS styling. The header and footer were simplified due to time constraints.",
+    "skills": ["HTML", "CSS", "SCSS"],
     "links": [
-      {
-        "name": "Github Repo",
-        "link": "https://github.com/mdowns1999/weatherAPI"
-      },
-      {
-        "name": "Live Demo",
-        "link": "https://mdowns1999.github.io/weatherAPI/"
-      }
+      { "name": "Github Repo", "link": "https://github.com/mdowns1999/BYUIWebsiteRebuildCode" },
+      { "name": "Live Demo", "link": "https://mdowns1999.github.io/BYUIWebsiteRebuildCode/" }
     ],
     "type": "Web"
   },
   {
     "id": 5,
-    "name": "Chess",
-    "description": "This chess project was one that I did in a team. The goal was to make a fully functional chess program. This program needed to follow all the rules of chess, meaning, every piece moves exactly as it could in the real game. We also implemented special moves like castling, empassant, and promotion (though in this version you always promote to a queen). Most of the code we wrote was our own. The code that was not ours was the interact and Open GL Classes and libraries. Those were written by James Helfrich, a professor at BYU-I.",
-    "skills": ["C++"],
+    "name": "Weather App",
+    "description": "A five-day weather forecast app for three cities, built to practice core JavaScript concepts including API data fetching, local storage, and working with JavaScript objects.",
+    "skills": ["JavaScript", "HTML", "CSS", "SCSS"],
     "links": [
-      {
-        "name": "Github Repo",
-        "link": "https://github.com/mdowns1999/Chess-Program-Repo"
-      }
-    ],
-    "type": "Design"
-  },
-  {
-    "id": 6,
-    "name": "Orbit Simulator",
-    "description": "This project is a simulation of satellites orbiting the earth.  This program allows you to fly a ship and destroy floating junk in space.  If a satellite breaks during the game, then it is the players job to go and destroy it before anything else breaks.  This program uses basic physics.  The orbiting of the satellites is not as precise as it could be since we are using simple Algebra and Geometry, but it is close enough that it looks almost like the real thing.",
-    "skills": ["C++"],
-    "links": [
-      {
-        "name": "Github Repo",
-        "link": "https://github.com/mdowns1999/Orbit-Simulator"
-      }
-    ],
-    "type": "Design"
-  },
-  {
-    "id": 7,
-    "name": "PHP Motors",
-    "description": "This project is a mockup of a car dealership like website.  On this website, I practiced and implemented several key features. Users can browse through different cars available for purchase, log in to view their account information, and log out. Additionally, a search feature was also implemented that allows users to find specific vehicles. The website is built using the MVC (Model-View-Controller) architecture and utilizes a relational database that I quired using MYSQL.",
-    "skills": ["PHP", "HTML", "CSS", "Javascript"],
-    "links": [
-      {
-        "name": "Github Repo",
-        "link": "https://github.com/mdowns1999/phpmotors"
-      }
+      { "name": "Github Repo", "link": "https://github.com/mdowns1999/weatherAPI" },
+      { "name": "Live Demo", "link": "https://mdowns1999.github.io/weatherAPI/" }
     ],
     "type": "Web"
   },
   {
+    "id": 6,
+    "name": "PHP Motors",
+    "description": "A mock car dealership website built with PHP following the MVC architecture. Features include browsing vehicle listings, user authentication, and a vehicle search. Data is persisted using a relational MySQL database.",
+    "skills": ["PHP", "HTML", "CSS", "JavaScript"],
+    "links": [
+      { "name": "Github Repo", "link": "https://github.com/mdowns1999/phpmotors" }
+    ],
+    "type": "Web"
+  },
+  {
+    "id": 7,
+    "name": "Chess",
+    "description": "A fully functional chess program built as a team project in C++. The game follows all standard rules of chess, including special moves such as castling, en passant, and pawn promotion. Third-party Interact and OpenGL classes provided by BYU-I professor James Helfrich were used for rendering; all game logic was written by the team.",
+    "skills": ["C++"],
+    "links": [
+      { "name": "Github Repo", "link": "https://github.com/mdowns1999/Chess-Program-Repo" }
+    ],
+    "type": "Design"
+  },
+  {
     "id": 8,
+    "name": "Orbit Simulator",
+    "description": "A satellite orbit simulation built in C++ where players pilot a ship and destroy debris before it damages other satellites. Orbital physics are approximated using basic algebra and geometry, producing a visually convincing result.",
+    "skills": ["C++"],
+    "links": [
+      { "name": "Github Repo", "link": "https://github.com/mdowns1999/Orbit-Simulator" }
+    ],
+    "type": "Design"
+  },
+  {
+    "id": 9,
     "name": "C# ATM",
-    "description": "Before this project, I knew little about C#.  So I decided to do a simple two week sprint and begin learning the C# language.  I chose to do a simple ATM project so I can work on practicing how to use classes, control flow, loops, and the list container.  To display everything, I chose to do it in the console so I could mainly focus on learning C#.  Since my two week sprint, I have taken two C# courses on Udemy to learn the fundementals C# better.  Those fundementals include variables, functions, classes, etc.",
+    "description": "A two-week self-directed sprint to learn C# fundamentals. The project simulates a basic ATM in the console, covering classes, control flow, loops, and list containers. Following the sprint, I completed two Udemy courses to further solidify my understanding of the language.",
     "skills": ["C#"],
     "links": [
-      {
-        "name": "Github Repo",
-        "link": "https://github.com/mdowns1999/cSharpATM"
-      }
+      { "name": "Github Repo", "link": "https://github.com/mdowns1999/cSharpATM" }
     ],
     "type": "Other"
   }

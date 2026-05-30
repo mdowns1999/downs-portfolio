@@ -14,7 +14,7 @@ import getImage from '../../helper/getImage';
 
 const photoStyle = { width: '100%', borderRadius: '12px', boxShadow: '0 4px 24px rgba(47,126,200,0.15)' };
 const skillsLabelSx = { color: 'text.secondary', letterSpacing: '0.08em' };
-const chipsStackSx = { mt: 1, mb: 3 };
+const chipsStackSx =   { mt: 1, mb: 3, flexWrap: "wrap", gap: 0.5, minWidth: 0 }
 const btnsStackSx = { mt: 1 };
 
 const ProjectDetailPage = () => {
